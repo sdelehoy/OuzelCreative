@@ -87,7 +87,6 @@ h6 {
   padding-top: 20px;
   position: absolute;
   width: 100%;
-	pointer-events: none;
 }
 .nav-flex {
   align-items: center;
