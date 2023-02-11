@@ -252,7 +252,7 @@ body {
   perspective: 1px;
   width: 100vw;
 }
-header, .parallax {
+.parallax {
   transform-style: preserve-3d;
 }
 .parallax {
