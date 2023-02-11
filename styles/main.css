@@ -253,10 +253,8 @@ body {
   width: 100vw;
 }
 .parallax {
+	height: 750px;
   transform-style: preserve-3d;
-}
-.parallax {
-  height: 1000px;
 }
 .parallax_layer {
   height: 100%;
@@ -275,7 +273,15 @@ body {
 */
   position: absolute;
   transform: translateX(-50%);
-  width: 2560px;
+  width: 1920px;
+}
+@media (min-width: 768px) {
+	.parallax {
+		height: 1000px;
+	}
+	.parallax_svg {
+		width: 2560px;
+	}
 }
  .parallax_svg svg {
   display: block;
