@@ -253,7 +253,7 @@ body {
   width: 100vw;
 }
 .parallax {
-	height: 500px;
+	height: 750px;
   transform-style: preserve-3d;
 }
 .parallax_layer {
@@ -273,7 +273,7 @@ body {
 */
   position: absolute;
   transform: translateX(-50%);
-  width: 1280px;
+  width: 1920px;
 }
 @media (min-width: 768px) {
 	.parallax {
