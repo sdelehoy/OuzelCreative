@@ -412,6 +412,7 @@ form textarea {
 	background-color: var(--c7);
 	border: none;
 	border-radius: 3px;
+	color: var(--c1);
 	font-family: var(--f2);
 	font-size: 1rem;
 	padding: 15px;
