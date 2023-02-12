@@ -6,6 +6,6 @@
       "sizes": "512x512"
   }],
   "background_color": "#FFF8CF",
-  "theme_color": "#00C2F3",
+  "theme_color": "#FFF8CF",
   "display": "browser"
 }
