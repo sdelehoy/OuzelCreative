@@ -409,7 +409,7 @@ form textarea {
 	width: 100%;
 }
 .form--button {
-	appearance: none;
+	/* appearance: none; */
 	background-color: var(--c7);
 	border: none;
 	border-radius: 3px;
