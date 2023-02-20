@@ -433,12 +433,15 @@ form textarea {
 .footer-section {
 	margin: 10px 0;
 }
-.footer p small {
-  font-size: 1rem;
-	line-height: 0.5rem;	
+.footer p {
+	line-height: 1rem;	
 	margin: 0;
 }
+.footer p small {
+  font-size: 1rem;
+}
 .footer-flex {
+	display: block;
 	text-align: center;
 }
 @media (min-width: 768px) {
