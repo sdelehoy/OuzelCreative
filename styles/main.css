@@ -435,6 +435,7 @@ form textarea {
 }
 .footer p {
   margin: 0;
+	line-height: 1.2rem;
 }
 .footer-flex {
 	text-align: center;
