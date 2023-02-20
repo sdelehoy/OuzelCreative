@@ -441,7 +441,7 @@ form textarea {
 }
 @media (min-width: 768px) {
 	.footer-flex {
-		align-items: center;
+		align-items: flex-start;
   	display: flex;
   	justify-content: space-between;
 		text-align: unset;
