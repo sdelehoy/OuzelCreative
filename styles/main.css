@@ -436,3 +436,14 @@ form textarea {
 .footer p {
   margin: 0;
 }
+.footer-flex {
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.footer-flex {
+		align-items: center;
+  	display: flex;
+  	justify-content: space-between;
+		text-align: unset;
+	}
+}
