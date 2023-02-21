@@ -1,9 +1,17 @@
 // JavaScript Document
 
-// Update the copyright year
-document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+// NAVIGATION
+const hamb = document.querySelector(".hamb");
+const navMenu = document.querySelector(".nav_list");
 
-// Sideshows
+hamb.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+	hamb.classList.toggle("active");
+	navMenu.classList.toggle("active");
+}
+
+// SLIDESHOWS
 let slideIndex = [1, 1, 1, 1];
 let slideId = ["slides1", "slides2", "slides3", "slides4"];
 showSlides(1, 0);
@@ -29,3 +37,6 @@ function showSlides(n, no) {
 	}
 	x[slideIndex[no]-1].style.display = "block";
 }
+
+// UPDATE COPYRIGHT
+document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
