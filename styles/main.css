@@ -180,16 +180,16 @@ h6 {
 	padding: 40px 20px;
 }
 .hamb-line {
-	background: var(--c2);
+	background-color: var(--c2);
 	display: block;
 	height: 2px;
 	position: relative;
+	transition: all 0.5s ease-in-out;
 	width: 30px;
-	transition: .5s ease-in-out;
 }
 .hamb-line::before,
 .hamb-line::after {
-	background: var(--c2);
+	background-color: var(--c2);
 	content: "";
 	display: block;
 	height: 100%;
