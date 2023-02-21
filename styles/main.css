@@ -146,8 +146,8 @@ h6 {
 	right: 0px;
 	z-index: 2;
 }
-.nav_list {
-	list-style-type: none;
+.nav_list li {
+	list-style: none;
 }
 .nav_list li a,
 .logo a {
@@ -233,7 +233,6 @@ h6 {
 		align-items: center;
 		display: flex;
 		justify-content: flex-end;
-		list-style-type: none;
 		position: relative;
 	}
 	.nav_list li a {
