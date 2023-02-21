@@ -11,6 +11,15 @@ function mobileMenu() {
 	navMenu.classList.toggle("active");
 }
 
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+	hamb.classList.remove("active");
+	navMenu.classList.remove("active");
+}
+
 // SLIDESHOWS
 let slideIndex = [1, 1, 1, 1];
 let slideId = ["slides1", "slides2", "slides3", "slides4"];
