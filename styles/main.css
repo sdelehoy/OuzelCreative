@@ -220,6 +220,9 @@ h6 {
 	transform: rotate(45deg);
 	top: 0;
 }
+body:has(.hamb-input:checked) {
+	overflow-y: hidden;
+}
 @media (min-width: 768px) {
 	.main-nav {
 		background-color: transparent;
