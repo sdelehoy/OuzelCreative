@@ -151,10 +151,11 @@ h6 {
 	max-width: 100%;
 }
 .nav_list {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	margin: auto;
-	text-align: center;
 	width: 100px;
 }
 .nav_list li {
@@ -241,6 +242,7 @@ h6 {
 	.nav_list {
 		align-items: center;
 		display: flex;
+		flex-direction: row;
 		justify-content: flex-end;
 		position: relative;
 	}
