@@ -177,6 +177,8 @@ h6 {
 }
 .hamb {
 	cursor: pointer;
+	display: block;
+	height: 2px;
 	padding: 40px 20px;
 }
 .hamb-line {
@@ -203,22 +205,15 @@ h6 {
 .hamb-line::after {
 	top: -10px;
 }
-.hamb-input {
-	display: none;
-}
-.hamb-input:checked ~ .main-nav {
-	max-width: 100%;
-}
-.hamb-input:checked + .hamb .hamb-line {
+.hamb.active .hamb-line {
+	opacity: 0;
 	background: transparent;
 }
-.hamb-input:checked + .hamb .hamb-line::before {
+.hamb.active .hamb-line::before {
 	transform: rotate(-45deg);
-	top: 0;
 }
-.hamb-input:checked + .hamb .hamb-line::after {
+.hamb.active .hamb-line::after {
 	transform: rotate(45deg);
-	top: 0;
 }
 @media (min-width: 768px) {
 	.main-nav {
@@ -238,8 +233,7 @@ h6 {
 	.nav_list li a {
 		color: var(--c2);
 	}
-	.hamb,
-	.hamb-line {
+	.hamb {
 		display: none;
 	}
 }

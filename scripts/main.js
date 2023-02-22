@@ -2,7 +2,7 @@
 
 // NAVIGATION
 const hamb = document.querySelector(".hamb");
-const navMenu = document.querySelector(".nav_list");
+const navMenu = document.querySelector(".main-nav");
 
 hamb.addEventListener("click", mobileMenu);
 
