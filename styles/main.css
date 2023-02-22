@@ -138,13 +138,17 @@ h6 {
 }
 .main-nav {
   background-color: hsla(51, 100%, 91%, 0.9);
-	height: 100%;
 	max-width: 0;
 	position: fixed;
 	transition: all .5s ease-in-out;
 	width: 100%;
 	right: 0px;
+	text-align: center;
+	top: 90px;
 	z-index: 2;
+}
+.main-nav.active {
+	max-width: 100%;
 }
 .nav_list li {
 	list-style: none;
@@ -206,14 +210,15 @@ h6 {
 	top: -10px;
 }
 .hamb.active .hamb-line {
-	opacity: 0;
-	background: transparent;
+	background-color: transparent;
 }
 .hamb.active .hamb-line::before {
 	transform: rotate(-45deg);
+	top: 0;
 }
 .hamb.active .hamb-line::after {
 	transform: rotate(45deg);
+	top: 0;
 }
 @media (min-width: 768px) {
 	.main-nav {
