@@ -288,10 +288,10 @@ body {
 }
 @media (min-width: 479px) {
 	.parallax {
-		height: 1000px;
+		height: 650px;
 	}
 	.parallax_svg {
-		width: 2560px;
+		width: 1664px;
 	}
 }
 @media (min-width: 768px) {
