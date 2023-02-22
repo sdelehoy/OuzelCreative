@@ -276,6 +276,7 @@ body {
   display: flex;
   flex-direction: column;
   left: 50%;
+	object-fit: cover;
 
   /* max-height: 100%; */
   /* max-width: 300%; */
