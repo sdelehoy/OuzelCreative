@@ -353,6 +353,12 @@ body {
 	font-size: 2rem;
 	margin-bottom: 30px;
 }
+.about-img {
+	border-radius: 50%;
+	display: block;
+	margin: 20px auto;
+	max-width: 275px;
+}
 .work-divider {
 	border: none;
 	background-color: hsla(270, 2%, 25%, 0.1);
