@@ -44,6 +44,7 @@ function change(id, href) {
   let a = document.getElementById(id);
   let link = ROT47(href);
   a.setAttribute("href", link);
+  a.setAttribute("aria-live", "off");
 }
 
 // End (C) 2010 Andreas Spindler
