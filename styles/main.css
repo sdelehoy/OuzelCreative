@@ -275,44 +275,13 @@ body {
   display: flex;
   flex-direction: column;
   left: 50%;
-
-  /* max-height: 100%; */
-  /* max-width: 300%; */
-  /* min-width: 100%; */
-
   position: absolute;
   transform: translateX(-50%);
-  /* width: 1715px; */
 	width: clamp(1536px, 160vw, 2560px);
 }
-/* @media (min-width: 479px) {
-	.parallax {
-		height: 650px;
-	}
-	.parallax_svg {
-		width: 1664px;
-	}
-}
-@media (min-width: 768px) {
-	.parallax {
-		height: 1000px;
-	}
-	.parallax_svg {
-		width: 2560px;
-	}
-}
-@media (min-width: 992px) {
-	.parallax {
-		height: 1000px;
-	}
-	.parallax_svg {
-		width: 2560px;
-	}
-} */
  .parallax_svg svg {
   display: block;
   height: auto;
-/*  max-width: 100%;*/
 } 
 .layer1 {
   transform: translateZ(-3px) scale(4);
