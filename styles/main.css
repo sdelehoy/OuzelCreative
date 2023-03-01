@@ -262,8 +262,7 @@ body {
   width: 100vw;
 }
 .parallax {
-	/* height: 670px; */
-	height: clamp(664px, 58.5vw, 1171px);
+	height: clamp(600px, 62.5vw, 999px);
   transform-style: preserve-3d;
 }
 .parallax_layer {
@@ -284,7 +283,7 @@ body {
   position: absolute;
   transform: translateX(-50%);
   /* width: 1715px; */
-	width: clamp(1700px, 150vw, 3000px);
+	width: clamp(1536px, 160vw, 2560px);
 }
 /* @media (min-width: 479px) {
 	.parallax {
