@@ -410,7 +410,7 @@ body {
 }
 .slides-prev:hover,
 .slides-next:hover {
-	background-color: hsla(270, 2%, 25%, 0.3);
+	background-color: hsla(0, 0%, 60%, 0.5);
 }
 .fade {
 	animation-name: fade;
