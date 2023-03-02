@@ -353,6 +353,7 @@ body {
 }
 .slides-img {
 	border-radius: 3px;
+	width: 100%;
 }
 .slides-prev,
 .slides-next {
