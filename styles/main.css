@@ -458,13 +458,13 @@ form textarea {
 		text-align: unset;
 	}
 }
-.social a {
+.social-link {
 	align-items: center;
 	color: var(--c4);
 	display: flex;
 	text-decoration: none;
 }
-.social a img {
+.social-img {
 	height: 30px;
 	padding-right: 5px;
 	width: 30px;
