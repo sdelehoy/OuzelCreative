@@ -458,20 +458,23 @@ form textarea {
 		text-align: unset;
 	}
 }
+.social {
+	height: 50px;
+}
 .social a {
 	align-items: center;
 	color: var(--c4);
 	display: flex;
 	text-decoration: none;
 }
-.social img {
-	height: 25px;
+.social a img {
+	height: 30px;
 	padding-right: 5px;
-	width: 25px;
+	width: 30px;
 }
 /* Website Carbon Badge */
 #wcb.carbonbadge {
-	color: var(--c1) !important;
+	color: var(--c2) !important;
 }
 #wcb #wcb_g,
 #wcb #wcb_a,
@@ -480,11 +483,11 @@ form textarea {
 }
 #wcb #wcb_g,
 #wcb #wcb_a {
-    border: .13em solid var(--c7) !important;
+    border: .13em solid var(--c3) !important;
 }
 #wcb.wcb-d #wcb_a {
-	color: var(--c1) !important;
-	background: var(--c7) !important;
-	border-color: var(--c7) !important;
+	color: var(--c2) !important;
+	background: var(--c3) !important;
+	border-color: var(--c3) !important;
 }
 
