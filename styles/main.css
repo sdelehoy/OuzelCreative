@@ -458,9 +458,6 @@ form textarea {
 		text-align: unset;
 	}
 }
-.social {
-	height: 50px;
-}
 .social a {
 	align-items: center;
 	color: var(--c4);
