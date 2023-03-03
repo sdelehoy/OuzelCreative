@@ -469,3 +469,22 @@ form textarea {
 	padding-right: 5px;
 	width: 25px;
 }
+/* Website Carbon Badge */
+#wcb.carbonbadge {
+	color: var(--c1) !important;
+}
+#wcb #wcb_g,
+#wcb #wcb_a,
+#wcb #wcb_2 {
+	font-family: var(--f2) !important;
+}
+#wcb #wcb_g,
+#wcb #wcb_a {
+    border: .13em solid var(--c7) !important;
+}
+#wcb.wcb-d #wcb_a {
+	color: var(--c1) !important;
+	background: var(--c7) !important;
+	border-color: var(--c7) !important;
+}
+
