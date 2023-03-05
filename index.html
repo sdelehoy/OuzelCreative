@@ -29,6 +29,7 @@
   -->
   <link rel="stylesheet" type="text/css" href="styles/MyFontsWebfontsKit.css">
 	<link rel="stylesheet" href="https://use.typekit.net/fth6ndz.css">
+	<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 </head>
 <body>
 	<!-- HEADER -->
@@ -509,7 +510,7 @@
 						<p>How can we help? Let us know what project you have in mind and what questions you have. We would love to help you get your message out.</p>
 					</div>
 					<div class="grid-width-4">
-						<form class="kwes-form form--flex" action="https://kwesforms.com/api/foreign/forms/XYZafgoq6i2lUwwGY5kV">
+						<form class="kwes-form form--flex" action="https://kwesforms.com/api/foreign/forms/XYZafgoq6i2lUwwGY5kV" has-recaptcha-v2>
 							<div class="form--flex form--first">
 								<label for="name">Name<span aria-hidden="true">*</span></label>
 								<input id="name" name="name" type="text" rules="required" required>
@@ -522,6 +523,7 @@
 								<label for="message">Message<span aria-hidden="true">*</span></label>
 								<textarea id="message" name="message" rows="5" cols="33" rules="min:5|max:255|required" required></textarea>
 							</div>
+							<div class="h-captcha" data-sitekey="1c1adf51-3310-4ca7-8dd7-3854b9d0850c"></div>
 							<div>
 								<button class="form--button" type="submit">Send message</button>
 							</div>
