@@ -456,7 +456,7 @@ form textarea {
 	width: 30px;
 }
 /* Website Carbon Badge */
-#wcb.carbonbadge {
+/* #wcb.carbonbadge {
 	color: var(--c2) !important;
 }
 #wcb #wcb_g,
@@ -472,5 +472,5 @@ form textarea {
 	color: var(--c2) !important;
 	background: var(--c3) !important;
 	border-color: var(--c3) !important;
-}
+} */
 
