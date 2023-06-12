@@ -102,20 +102,6 @@ h6 {
 .logo_img {
   width: 45px;
 }
-.logo_img:hover {
-	animation: bounce 0.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
-  animation-iteration-count: infinite;
-}
-@keyframes bounce {
-	from {
-		transform: translate3d(0, 0, 0);
-	}
-	to {
-		transform: translate3d(0, 10px, 0);
-	}
-}
 .logo_word {
 	color: var(--c2);
 	font-size: 1.3rem;
