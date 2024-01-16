@@ -124,7 +124,7 @@ h6 {
 }
 .main-nav {
   background-color: hsla(51, 100%, 91%, 0.8);
-	right: 0;
+	right: -40px;
 	padding-top: 100px;
 	position: fixed;
 	top: 0;
@@ -142,22 +142,32 @@ h6 {
 	flex-direction: column;
 	justify-content: center;
 	margin: auto;
-	width: 100px;
 }
 .nav_list li {
 	list-style: none;
 }
 .nav_list li a,
 .logo a {
-  color: var(--c2);
 	display: block;
 	margin: 12px;
   padding: 5px 15px;
 	position: relative;
   text-decoration: none;
+}
+.btn-outline {
+	border: 3px solid var(--c5);
+	border-radius: 10px;
+	color: var(--c2);
+	transition: all 0.5s;
+}
+.btn-outline:hover {
+	transform: scale(107%);
+}
+.nav-link {
+	color: var(--c2);
 	transition: all 0.5s ease-in;
 }
-.nav_list li a::after {
+.nav-link::after {
 	background: var(--c5);
 	content: "";
 	height: 2px;
@@ -169,7 +179,7 @@ h6 {
 	transition: transform 0.5s;
 	width: 100%;
 }
-.nav_list li a:hover::after {
+.nav-link:hover::after {
   transform: scaleX(1);
 	transform-origin: left;
 }
@@ -231,9 +241,6 @@ h6 {
 		flex-direction: row;
 		justify-content: flex-end;
 		position: relative;
-	}
-	.nav_list li a {
-		color: var(--c2);
 	}
 	.hamb {
 		display: none;
@@ -401,9 +408,9 @@ form textarea {
 	width: 100%;
 }
 .form--button {
-	background-color: var(--c7);
+	background-color: var(--c5);
 	border: none;
-	border-radius: 3px;
+	border-radius: 10px;
 	color: var(--c1);
 	font-family: var(--f2);
 	font-size: 1rem;
@@ -412,7 +419,7 @@ form textarea {
 	transition: all 0.5s;
 }
 .form--button:hover {
-	transform: scale(95%);
+	transform: scale(107%);
 	background-color: var(--c3);
 }
 /*-- FOOTER --*/
