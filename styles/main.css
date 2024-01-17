@@ -433,45 +433,79 @@ form textarea {
 .footer {
   background-color: var(--c1);
   color: var(--c4);
-	padding: 20px 0;
+	padding-bottom: 75px;
+	padding-top: 75px;
   transform: translateY(-1px);
 }
-.footer-section {
-	margin: 10px 0;
+.footer-grid {
+	display: grid;
+	font-size: 1rem;
+	gap: 30px;
+}
+@media (min-width: 768px) {
+	.footer-grid {
+		gap: 30px;
+		grid-template-columns: 1.75fr 1fr 1fr 1fr;
+	}
+}
+.footer-flex {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 .footer p {
-	line-height: 1rem;	
 	margin: 0;
 }
 .footer p small {
   font-size: 0.8rem;
 }
-.footer-flex {
-	display: block;
-	text-align: center;
-}
 .footer-logo {
 	width: 200px;
 }
-@media (min-width: 768px) {
-	.footer-flex {
-		align-items: flex-start;
-  	display: flex;
-  	justify-content: space-between;
-		text-align: unset;
-	}
+.footer-links a {
+	color: var(--c4);
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.footer-links a:hover {
+	color: var(--c5);
 }
 .social-link {
 	align-items: center;
 	color: var(--c4);
 	display: flex;
 	text-decoration: none;
+	transition: all 0.5s;
 }
 .social-img {
 	height: 30px;
 	padding-right: 5px;
 	width: 30px;
 }
+.social-link:hover {
+	transform: scale(105%);
+}
+.greengeeks {
+	transition: all 0.5s;
+}
+ .greengeeks:hover {
+	transform: scale(105%);
+}
+.btn-footer {
+	background: var(--c5);
+	border-radius: 10px;
+	color: var(--c2);
+	display: inline-block;
+	padding: 5px 20px;
+	text-decoration: none;
+	transition: all 0.5s;
+	width: auto;
+}
+.btn-footer:hover {
+	background-color: var(--c8);
+	transform: scale(105%);
+}
+
 /* Website Carbon Badge */
 /* #wcb.carbonbadge {
 	color: var(--c2) !important;
@@ -490,4 +524,3 @@ form textarea {
 	background: var(--c3) !important;
 	border-color: var(--c3) !important;
 } */
-
