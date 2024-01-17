@@ -150,7 +150,7 @@ h6 {
 	transition: all 0.5s;
 }
 .btn-outline:hover {
-	background: var(--c8);
+	background: var(--c5);
 	transform: scale(105%);
 }
 .nav-link {
