@@ -93,20 +93,22 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
-.logo-img {
-  width: 45px;
+.logo {
+  transition: all 0.5s;
+	width: 250px;
+	z-index: 1;
 }
-.logo a:hover {
-	transform: scale(107%);
+.logo:hover {
+	transform: scale(105%);
 }
 @media (min-width: 480px) {
-	.logo-img {
-		width: 60px;
+	.logo {
+		width: 300px;
 	}
 }
 @media (min-width: 768px) {
-	.logo-img {
-		width: 300px;
+	.logo {
+		width: 350px;
 	}
 }
 .main-nav {
@@ -149,7 +151,7 @@ h6 {
 }
 .btn-outline:hover {
 	background: var(--c8);
-	transform: scale(107%);
+	transform: scale(105%);
 }
 .nav-link {
 	color: var(--c2);
@@ -407,8 +409,8 @@ form textarea {
 	transition: all 0.5s;
 }
 .form--button:hover {
-	transform: scale(107%);
-	background-color: var(--c3);
+	transform: scale(105%);
+	background-color: var(--c8);
 }
 /*-- FOOTER --*/
 .footer {
