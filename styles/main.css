@@ -304,6 +304,23 @@ body {
 	font-size: 2rem;
 	margin-bottom: 30px;
 }
+.btn-container {
+	margin-top: 30px;
+}
+.btn-main {
+	background: var(--c5);
+	border-radius: 10px;
+	color: var(--c2);
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all 0.5s;
+	width: auto;
+}
+.btn-main:hover {
+	background-color: var(--c8);
+	transform: scale(105%);
+}
 .about-img {
 	border-radius: 50%;
 	display: block;
