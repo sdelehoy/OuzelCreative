@@ -450,6 +450,9 @@ form textarea {
 	display: block;
 	text-align: center;
 }
+.footer-logo {
+	width: 200px;
+}
 @media (min-width: 768px) {
 	.footer-flex {
 		align-items: flex-start;
