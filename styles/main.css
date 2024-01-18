@@ -14,7 +14,6 @@
 }
 html {
   box-sizing: border-box;
-  overflow: hidden;
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -51,6 +50,9 @@ h6 {
 .bg-c3 {
 	background-color: var(--c3);
 	color: var(--c1);
+}
+.bg-c6 {
+	background-color: var(--c6);
 }
 .container {
   margin: 0 auto;
@@ -237,7 +239,10 @@ h6 {
 	}
 }
 /*-- PARALLAX LANDSCAPE --*/
-body {
+.html-parallax {
+  overflow: hidden;
+}
+.body-parallax {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -509,6 +514,16 @@ form textarea {
 .btn-footer:hover {
 	background-color: var(--c8);
 	transform: scale(105%);
+}
+
+/*-- SECONDARY PAGES --*/
+.hero {
+	height: 60vh;
+}
+.hero-img {
+	height: 60vh;
+	object-fit: cover;
+	width: 100vw;
 }
 
 /* Website Carbon Badge */
