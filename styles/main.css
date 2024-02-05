@@ -335,8 +335,16 @@ h6 {
   max-width: 275px;
   width: 100%;
 }
-.hero-img {
-  max-width: 300px;
+.banner-img {
+  display: block;
+  margin: 75px auto 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .banner-img {
+    margin: auto;
+  }
 }
 .work-divider {
   border: none;
