@@ -67,7 +67,7 @@ h6 {
 }
 @media (min-width: 768px) {
   .grid-row {
-    column-gap: 80px;
+    column-gap: 50px;
     grid-template-columns: repeat(6, minmax(10px, 1fr));
   }
   .grid-width-2 {
@@ -343,7 +343,7 @@ h6 {
 }
 @media (min-width: 768px) {
   .banner-img {
-    margin: auto;
+    margin: 0 auto 0 auto;
   }
 }
 .banner2-img {
