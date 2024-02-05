@@ -342,8 +342,8 @@ h6 {
   width: 100%;
 }
 @media (min-width: 768px) {
-  .banner-img {
-    margin: 0 auto 0 auto;
+  .banner1-img {
+    margin: auto;
   }
 }
 .banner2-img {
