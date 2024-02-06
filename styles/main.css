@@ -31,14 +31,15 @@ ul {
 body {
   background-color: var(--c3);
   font-family: var(--f2);
-  font-size: 1.1rem;
-  font-style: normal;
-  font-weight: 400;
+  font-size: 1rem;
   scroll-behavior: smooth;
+}
+body p {
+  line-height: 140%;
 }
 @media (min-width: 768px) {
   body {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 }
 h1,
