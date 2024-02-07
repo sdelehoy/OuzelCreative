@@ -128,7 +128,7 @@ h6 {
   top: 0;
   max-width: 0;
   transition: all 0.5s ease-in-out;
-  width: 100%;
+  width: 350px;
   z-index: 1;
 }
 .main-nav.active {
@@ -154,9 +154,9 @@ h6 {
 }
 .btn-outline {
   border: 2px solid var(--c5);
-  border-radius: 7px;
+  border-radius: 30px;
   color: var(--c2);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .btn-outline:hover {
   background: var(--c5);
@@ -321,16 +321,17 @@ h6 {
 }
 .btn-main {
   background: var(--c5);
-  border-radius: 7px;
+  border-radius: 50px;
   color: var(--c2);
   display: inline-block;
   padding: 10px 30px;
   text-decoration: none;
-  transition: all 0.5s;
-  width: auto;
+  text-align: center;
+  transition: all 0.3s;
+  min-width: 175px;
 }
 .btn-main:hover {
-  background-color: var(--c8);
+  background-color: var(--c3);
   transform: scale(105%);
 }
 .about-img {
@@ -471,17 +472,18 @@ form textarea {
 .form--button {
   background-color: var(--c5);
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   color: var(--c1);
   font-family: var(--f2);
   font-size: 1rem;
-  padding: 15px;
+  padding: 10px 30px;
   min-width: 175px;
-  transition: all 0.5s;
+  transition: all 0.3s;
+  text-align: center;
 }
 .form--button:hover {
   transform: scale(105%);
-  background-color: var(--c8);
+  background-color: var(--c3);
 }
 /*-- FOOTER --*/
 .footer {
@@ -552,16 +554,17 @@ form textarea {
 }
 .btn-footer {
   background: var(--c5);
-  border-radius: 7px;
+  border-radius: 30px;
   color: var(--c2);
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 30px;
+  text-align: center;
   text-decoration: none;
-  transition: all 0.5s;
+  transition: all 0.3s;
   width: auto;
 }
 .btn-footer:hover {
-  background-color: var(--c8);
+  background-color: var(--c3);
   transform: scale(105%);
 }
 
