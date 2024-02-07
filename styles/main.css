@@ -10,7 +10,7 @@
   --c8: hsl(192, 91%, 82%);
   --c9: hsl(260, 2%, 24%);
   --f1: "MilkAndHoney-Regular";
-  --f2: "proxima-nova", sans-serif;
+  --f2: "nunito-sans", sans-serif;
   --f3: "new-kansas", serif;
 }
 html {
@@ -36,7 +36,7 @@ body {
   scroll-behavior: smooth;
 }
 body p {
-  line-height: 140%;
+  line-height: 150%;
 }
 @media (min-width: 768px) {
   body {
@@ -374,7 +374,7 @@ h6 {
 @media (min-width: 768px) {
   .banner1-img {
     margin: 0;
-    transform: translateY(-70px);
+    transform: translateY(-80px);
   }
 }
 .banner2-img {
