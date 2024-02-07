@@ -10,11 +10,8 @@
   --c8: hsl(192, 91%, 82%);
   --c9: hsl(260, 2%, 24%);
   --f1: "MilkAndHoney-Regular";
-  --f2: "quincy-cf", serif;
-  --f3: "ff-basic-gothic-pro", sans-serif;
-  --f4: "brother-1816", sans-serif;
-  --f5: "new-kansas", serif;
-  --f6: "new-spirit", serif;
+  --f2: "proxima-nova", sans-serif;
+  --f3: "new-kansas", serif;
 }
 html {
   box-sizing: border-box;
@@ -34,7 +31,7 @@ ul {
 }
 body {
   background-color: var(--c3);
-  font-family: var(--f3);
+  font-family: var(--f2);
   font-size: 1rem;
   scroll-behavior: smooth;
 }
@@ -43,7 +40,7 @@ body p {
 }
 @media (min-width: 768px) {
   body {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 h1,
@@ -52,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--f5);
+  font-family: var(--f3);
   font-weight: 600;
   line-height: 110%;
   font-size: 2rem;
@@ -66,7 +63,7 @@ h6 {
 }
 .container {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1080px;
   padding: 0 20px;
 }
 /* Grid */
