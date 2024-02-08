@@ -166,15 +166,15 @@ h3 {
 .btn-outline {
   border: 2px solid var(--c5);
   border-radius: 30px;
-  color: var(--c2);
+  color: var(--c1);
   transition: all 0.3s;
 }
 .btn-outline:hover {
-  background: var(--c5);
-  transform: scale(105%);
+  box-shadow: hsla(192, 100%, 48%, 0.8) 0px 5px 0px;
+  transform: scale(103%) translateY(-2px);
 }
 .nav-link {
-  color: var(--c2);
+  color: var(--c1);
   transition: all 0.5s ease-in;
 }
 .nav-link::after {
@@ -332,18 +332,23 @@ h3 {
 }
 .btn-main {
   background: var(--c5);
+  border: none;
   border-radius: 50px;
-  color: var(--c2);
+  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 3px 0px;
+  color: hsla(192, 100%, 6%, 0.8);
   display: inline-block;
-  padding: 10px 30px;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.3s;
+  font-family: var(--c2);
+  font-size: 1rem;
   min-width: 175px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 .btn-main:hover {
-  background-color: var(--c3);
-  transform: scale(105%);
+  background: hsl(192, 100%, 68%);
+  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
+  transform: scale(103%) translateY(-2px);
 }
 .about-img {
   border-radius: 50%;
@@ -364,7 +369,7 @@ h3 {
   background-color: var(--c9);
   border-top: 1px solid hsla(0, 0%, 100%, 0.25);
   border-radius: 7px;
-  box-shadow: hsla(0, 0%, 0%, 0.6) 0px 3px 4px;
+  box-shadow: hsla(0, 0%, 0%, 0.4) 0px 3px 4px;
   padding: 10px;
   margin-top: 30px;
 }
@@ -480,26 +485,10 @@ form textarea {
   padding: 10px;
   width: 100%;
 }
-.form--button {
-  background-color: var(--c5);
-  border: none;
-  border-radius: 30px;
-  color: var(--c1);
-  font-family: var(--f2);
-  font-size: 1rem;
-  padding: 10px 30px;
-  min-width: 175px;
-  transition: all 0.3s;
-  text-align: center;
-}
-.form--button:hover {
-  transform: scale(105%);
-  background-color: var(--c3);
-}
 /*-- FOOTER --*/
 .footer {
   background-color: var(--c1);
-  color: var(--c4);
+  color: hsl(0, 0%, 70%);;
   padding-bottom: 75px;
   padding-top: 75px;
   transform: translateY(-1px);
@@ -534,7 +523,7 @@ form textarea {
   flex-direction: column;
 }
 .footer-links a {
-  color: var(--c4);
+  color: hsl(0, 0%, 70%);;
   padding: 10px;
   text-decoration: none;
   transition: all 0.5s;
@@ -544,7 +533,7 @@ form textarea {
 }
 .social-link {
   align-items: center;
-  color: var(--c4);
+  color: hsl(0, 0%, 70%);;
   display: flex;
   text-decoration: none;
   transition: all 0.5s;
@@ -555,18 +544,21 @@ form textarea {
   width: 30px;
 }
 .social-link:hover {
-  transform: scale(105%);
+  color: var(--c5);
+  transform: scale(103%) translateY(-2px);
 }
 .greengeeks {
   transition: all 0.5s;
 }
 .greengeeks:hover {
-  transform: scale(105%);
+  transform: scale(103%) translateY(-2px);
 }
 .btn-footer {
   background: var(--c5);
+  border: none;
   border-radius: 30px;
-  color: var(--c2);
+  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 3px 0px;
+  color: hsla(192, 100%, 6%, 0.8);
   display: inline-block;
   padding: 5px 30px;
   text-align: center;
@@ -575,8 +567,9 @@ form textarea {
   width: auto;
 }
 .btn-footer:hover {
-  background-color: var(--c3);
-  transform: scale(105%);
+  background: hsl(192, 100%, 68%);
+  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
+  transform: scale(103%) translateY(-2px);
 }
 
 /*-- SECONDARY PAGES --*/
