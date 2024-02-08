@@ -535,6 +535,7 @@ form textarea {
   align-items: center;
   color: hsl(0, 0%, 70%);;
   display: flex;
+  gap: 5px;
   text-decoration: none;
   transition: all 0.5s;
 }
