@@ -52,7 +52,18 @@ h6 {
   font-family: var(--f3);
   font-weight: 600;
   line-height: 110%;
+}
+h1,
+h2 {
   font-size: 2rem;
+}
+@media (min-width: 768px) {
+  h1, h2 {
+    font-size: 2.2rem;
+  }
+}
+h3 {
+  font-size: 1.7rem;
 }
 .bg-c3 {
   background-color: var(--c3);
@@ -364,7 +375,7 @@ h6 {
   font-size: 1rem;
 }
 .card-text h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .banner1-img {
   display: block;
