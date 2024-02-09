@@ -363,7 +363,7 @@ h3 {
   }
 }
 .stakes-flex {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   gap: 30px;
 }
