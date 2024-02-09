@@ -320,12 +320,12 @@ h3 {
   transform: translateY(-1px);
 }
 .main-section {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .main-section-heading {
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .btn-container {
   margin-top: 50px;
@@ -497,8 +497,8 @@ form textarea {
 .footer {
   background-color: var(--c1);
   color: hsl(0, 0%, 70%);;
-  padding-bottom: 75px;
-  padding-top: 75px;
+  padding-bottom: 100px;
+  padding-top: 100px;
   transform: translateY(-1px);
 }
 .footer-grid {
@@ -590,22 +590,3 @@ form textarea {
   object-fit: cover;
   width: 100vw;
 }
-
-/* Website Carbon Badge */
-/* #wcb.carbonbadge {
-	color: var(--c2) !important;
-}
-#wcb #wcb_g,
-#wcb #wcb_a,
-#wcb #wcb_2 {
-	font-family: var(--f2) !important;
-}
-#wcb #wcb_g,
-#wcb #wcb_a {
-    border: .13em solid var(--c3) !important;
-}
-#wcb.wcb-d #wcb_a {
-	color: var(--c2) !important;
-	background: var(--c3) !important;
-	border-color: var(--c3) !important;
-} */
