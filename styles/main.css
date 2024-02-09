@@ -518,7 +518,7 @@ form textarea {
 @media (min-width: 768px) {
   .footer-grid {
     gap: 30px;
-    grid-template-columns: 1.75fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 .footer-flex {
@@ -588,6 +588,9 @@ form textarea {
   background: hsl(192, 100%, 68%);
   box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
   transform: scale(103%) translateY(-2px);
+}
+.copyright {
+  margin-top: 30px;
 }
 
 /*-- SECONDARY PAGES --*/
