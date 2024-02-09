@@ -351,11 +351,10 @@ h3 {
   box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
   transform: scale(103%) translateY(-2px);
 }
-.about-img {
-  border-radius: 50%;
+.banner1-img {
   display: block;
-  margin: 20px auto;
-  max-width: 275px;
+  margin: 75px auto 0 auto;
+  max-width: 480px;
   width: 100%;
 }
 @media (min-width: 768px) {
@@ -398,12 +397,6 @@ h3 {
 }
 .card-text h3 {
   font-size: 1.5rem;
-}
-.banner1-img {
-  display: block;
-  margin: 75px auto 0 auto;
-  max-width: 450px;
-  width: 100%;
 }
 @media (min-width: 768px) {
   .banner1-img {
@@ -480,6 +473,13 @@ h3 {
   to {
     opacity: 1;
   }
+}
+.about-img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  max-width: 275px;
+  width: 100%;
 }
 /*-- FORM --*/
 .form--flex {
