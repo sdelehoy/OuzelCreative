@@ -368,7 +368,10 @@ h3 {
   gap: 30px;
 }
 .stakes-icon {
-  max-width: 64px;
+  background: hsla(192, 100%, 48%, 0.3);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
 .card-container {
   column-gap: 15px;
