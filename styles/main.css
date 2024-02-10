@@ -511,14 +511,16 @@ form textarea {
   transform: translateY(-1px);
 }
 .footer-grid {
+  border-bottom: 1px solid var(--c6);
   display: grid;
   font-size: 1rem;
   gap: 30px;
+  padding-bottom: 20px;
 }
 @media (min-width: 768px) {
   .footer-grid {
     gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
   }
 }
 .footer-flex {
@@ -565,12 +567,6 @@ form textarea {
   color: var(--c5);
   transform: scale(103%) translateY(-2px);
 }
-.greengeeks {
-  transition: all 0.5s;
-}
-.greengeeks:hover {
-  transform: scale(103%) translateY(-2px);
-}
 .btn-footer {
   background: var(--c5);
   border: none;
@@ -588,6 +584,10 @@ form textarea {
   background: hsl(192, 100%, 68%);
   box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
   transform: scale(103%) translateY(-2px);
+}
+.affiliates {
+  margin-top: 30px;
+  gap: 30px;
 }
 .copyright {
   margin-top: 30px;
