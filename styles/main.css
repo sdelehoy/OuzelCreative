@@ -120,7 +120,7 @@ h3 {
   z-index: 1;
 }
 .logo:hover {
-  transform: scale(105%);
+  transform: scale(103%) translateY(-2px);
 }
 @media (min-width: 480px) {
   .logo {
@@ -495,7 +495,7 @@ form input,
 form textarea {
   background-color: var(--c1);
   border: none;
-  border-bottom: 1px solid var(--c3);
+  border-bottom: 1px solid var(--c6);
   color: var(--c4);
   font-family: var(--f2);
   font-size: 1rem;
