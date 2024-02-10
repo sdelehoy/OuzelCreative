@@ -513,6 +513,7 @@ form textarea {
 .footer-grid {
   border-bottom: 1px solid var(--c6);
   display: grid;
+  grid-template-columns: 1fr 1fr;
   font-size: 1rem;
   gap: 30px;
   padding-bottom: 20px;
@@ -588,6 +589,11 @@ form textarea {
 .affiliates {
   margin-top: 30px;
   gap: 30px;
+}
+@media (max-width: 768px) {
+  .affiliates {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .copyright {
   margin-top: 30px;
