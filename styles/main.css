@@ -134,13 +134,14 @@ h3 {
 }
 .main-nav {
   background-color: hsla(51, 100%, 91%, 0.8);
-  right: -40px;
+  right: -50px;
+  padding-right: 10px;
   padding-top: 100px;
   position: fixed;
   top: 0;
   max-width: 0;
   transition: all 0.5s ease-in-out;
-  width: 350px;
+  width: 250px;
   z-index: 1;
 }
 .main-nav.active {
@@ -243,6 +244,7 @@ h3 {
     max-width: none;
     padding-top: 0;
     position: relative;
+    right: 0;
     top: 0;
     width: fit-content;
   }
