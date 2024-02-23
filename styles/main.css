@@ -353,6 +353,13 @@ h3 {
   box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
   transform: scale(103%) translateY(-2px);
 }
+.banner1-services {
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  word-spacing: 0.2rem;
+}
 .banner1-img {
   display: block;
   margin: 75px auto 0 auto;
