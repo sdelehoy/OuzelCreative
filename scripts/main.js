@@ -96,7 +96,7 @@ class Header extends HTMLElement {
 						</div>
 						<div class="main-nav">
 							<ul class="nav_list">
-								<li><a class="nav-link" href="#work">Work</a></li>
+								<li><a class="nav-link" href="#work">This Work</a></li>
 								<li><a class="nav-link" href="#about">About</a></li>
 								<li><a class="btn-outline" href="/book-a-call">Book a Call</a></li>
 							</ul>
@@ -201,7 +201,7 @@ class Footer extends HTMLElement {
           	</div>
           	<div class="footer-links">
             	<a href="/">Home</a>
-            	<a href="#work">Work</a>
+            	<a href="#work">This Work</a>
             	<a href="#about">About</a>
             	<a href="/contact">Contact</a>
           	</div>
