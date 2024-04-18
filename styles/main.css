@@ -328,7 +328,7 @@ h3 {
 }
 .main-section-heading {
   font-size: 2rem;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 .btn-container {
   margin-top: 50px;
@@ -628,5 +628,12 @@ form textarea {
   height: 60vh;
   object-fit: cover;
   width: 100vw;
+}
+.posts:not(:last-child) {
+  margin-bottom: 148px;
+}
+.posts-link {
+  text-decoration: none;
+  color: var(--c4);
 }
 
