@@ -201,8 +201,8 @@ class Footer extends HTMLElement {
           	</div>
           	<div class="footer-links">
             	<a href="/">Home</a>
-            	<a href="#work">Work</a>
-            	<a href="#about">About</a>
+            	<a href="/#work">Work</a>
+            	<a href="/#about">About</a>
             	<a href="/contact">Contact</a>
 							<a href="/posts">Posts</a>
           	</div>
