@@ -632,16 +632,14 @@ form textarea {
 .posts a:not(:last-child) article {
   margin-bottom: 56px;
 }
-.posts-date {
-  color: var(--c3);
-}
 .posts-link {
   text-decoration: none;
   color: var(--c4);
+  transition: all 0.3s;
 }
 .posts-card {
   transition: all 0.3s;
 }
-.posts-card:hover {
+.posts-link > :hover {
   color: var(--c5);
 }
