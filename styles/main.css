@@ -81,10 +81,11 @@ h3 {
 /* Grid */
 .grid-row {
   display: grid;
+  gap: 24px;
 }
 @media (min-width: 768px) {
   .grid-row {
-    column-gap: 48px;
+    gap: 48px;
     grid-template-columns: repeat(6, minmax(16px, 1fr));
   }
   .grid-width-2 {
@@ -630,9 +631,6 @@ form textarea {
   width: 100vw;
 }
 /*-- POSTS PAGE --*/
-.posts a:not(:last-child) article {
-  margin-bottom: 56px;
-}
 .posts-link {
   text-decoration: none;
 }
