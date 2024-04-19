@@ -52,7 +52,7 @@ h5,
 h6 {
   font-family: var(--f3);
   font-weight: 600;
-  line-height: 110%;
+  line-height: 120%;
 }
 h1,
 h2 {
@@ -84,8 +84,8 @@ h3 {
 }
 @media (min-width: 768px) {
   .grid-row {
-    column-gap: 50px;
-    grid-template-columns: repeat(6, minmax(10px, 1fr));
+    column-gap: 48px;
+    grid-template-columns: repeat(6, minmax(16px, 1fr));
   }
   .grid-width-2 {
     grid-column: span 2;
@@ -105,7 +105,7 @@ h3 {
 }
 /*-- MAIN NAVIGATION --*/
 .navbar {
-  padding-top: 20px;
+  padding-top: 24px;
   position: absolute;
   width: 100%;
 }
@@ -116,7 +116,7 @@ h3 {
 }
 .logo {
   transition: all 0.5s;
-  width: 250px;
+  width: 248px;
   z-index: 1;
 }
 .logo:hover {
@@ -124,12 +124,12 @@ h3 {
 }
 @media (min-width: 480px) {
   .logo {
-    width: 300px;
+    width: 296px;
   }
 }
 @media (min-width: 768px) {
   .logo {
-    width: 350px;
+    width: 344px;
   }
 }
 .main-nav {
@@ -323,8 +323,8 @@ h3 {
   transform: translateY(-1px);
 }
 .main-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 104px;
+  padding-bottom: 104px;
 }
 .main-section-heading {
   font-size: 2rem;
@@ -555,7 +555,7 @@ form textarea {
   color: hsl(0, 0%, 70%);
   padding: 10px;
   text-decoration: none;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .footer-links a:hover {
   color: var(--c5);
@@ -629,11 +629,16 @@ form textarea {
   object-fit: cover;
   width: 100vw;
 }
-.posts:not(:last-child) {
-  margin-bottom: 148px;
+.posts a:not(:last-child) article {
+  margin-bottom: 56px;
 }
 .posts-link {
   text-decoration: none;
   color: var(--c4);
 }
-
+.posts-card {
+  transition: all 0.3s;
+}
+.posts-card:hover {
+  color: var(--c5);
+}
