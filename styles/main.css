@@ -629,17 +629,21 @@ form textarea {
   object-fit: cover;
   width: 100vw;
 }
+/*-- POSTS PAGE --*/
 .posts a:not(:last-child) article {
   margin-bottom: 56px;
 }
 .posts-link {
   text-decoration: none;
-  color: var(--c4);
-  transition: all 0.3s;
 }
 .posts-card {
-  transition: all 0.3s;
+  background-color: var(--c6);
+  border-radius: ;
+  color: var(--c4);
+  padding: 24px;
+  transition: all 0.1s;
 }
-.posts-link > :hover {
-  color: var(--c5);
+.posts-card:hover {
+  background-color: var(--c8);
+  color: var(--c1);
 }
