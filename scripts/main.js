@@ -306,7 +306,6 @@ function switchHref() {
     });    
   };
 };
-
 switchHref(); 
 
 // NAVIGATION
