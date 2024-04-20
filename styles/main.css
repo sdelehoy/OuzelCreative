@@ -68,6 +68,10 @@ h3 {
 }
 a {
   color: var(--c5);
+  transition: all 0.3s;
+}
+a:hover {
+  text-decoration: none;
 }
 .bg-c3 {
   background-color: var(--c3);
@@ -144,7 +148,7 @@ a {
   position: fixed;
   top: 0;
   max-width: 0;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 250px;
   z-index: 1;
 }
