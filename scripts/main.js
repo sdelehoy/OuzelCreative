@@ -260,7 +260,7 @@ class Footer extends HTMLElement {
 							</a>
           	</div>
           	<div class="grid-width-1">
-            	<a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008">
+            	<a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008" target="_blank">
               	<img 
 									name="link"
 									src="/images/Loveland-Chamber-Proud-member-Logo-Gray.png"
@@ -270,7 +270,7 @@ class Footer extends HTMLElement {
             	</a>
           	</div>
           	<div class="grid-width-1">
-            	<a href="https://www.lovelandcreates.org/listing/ouzel-creative/">
+            	<a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank">
               	<img 
 									name="link"
 									src="/images/lcd-H-logo-tagline-gray.png" 
@@ -287,9 +287,9 @@ class Footer extends HTMLElement {
             	</p>
           	</div>
           	<div>&vert;</div>
-          	<div><a href="/privacy-policy">Privacy Policy</a></div>
+          	<div><a name="link" href="/privacy-policy">Privacy Policy</a></div>
           	<div>&vert;</div>
-          	<div><a href="/terms-of-service">Terms of Service</a></div>
+          	<div><a name="link" href="/terms-of-service">Terms of Service</a></div>
         	</div>
       	</div>
     	</footer>
