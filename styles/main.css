@@ -33,15 +33,15 @@ body {
   background-color: var(--c3);
   font-family: var(--f2);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   scroll-behavior: smooth;
 }
 body p {
-  line-height: 150%;
+  line-height: 160%;
 }
 @media (min-width: 768px) {
   body {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
   }
 }
 h1,
@@ -65,6 +65,9 @@ h2 {
 }
 h3 {
   font-size: 1.7rem;
+}
+a {
+  color: var(--c5);
 }
 .bg-c3 {
   background-color: var(--c3);
