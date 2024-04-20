@@ -666,6 +666,10 @@ form textarea {
 h1:has(+ h2) {
   margin-bottom: 8px;
 }
-.posts-date:has(+ p) {
+.posts-date:has(+ hr) {
+  color: var(--c8);
   margin-bottom: 48px;
+}
+.post-line {
+  
 }
