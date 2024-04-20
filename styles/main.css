@@ -652,3 +652,11 @@ form textarea {
   background-color: var(--c8);
   color: var(--c1);
 }
+.posts-date {
+  font-size: 0.9rem;
+}
+/*-- POST PAGE --*/
+.post-subtitle {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
