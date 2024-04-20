@@ -13,7 +13,7 @@ class Header extends HTMLElement {
 				<nav class="navbar">
 					<div class="nav-flex container">
 						<div class="logo">
-							<a href="/">
+							<a name="nav" href="/">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									xml:space="preserve"
@@ -96,9 +96,9 @@ class Header extends HTMLElement {
 						</div>
 						<div class="main-nav">
 							<ul class="nav_list">
-								<li><a class="nav-link" href="#work">Work</a></li>
-								<li><a class="nav-link" href="#about">About</a></li>
-								<li><a class="btn-outline" href="/book-a-call">Book a Call</a></li>
+								<li><a name="nav" class="nav-link" href="/#work">Work</a></li>
+								<li><a name="nav" class="nav-link" href="/#about">About</a></li>
+								<li><a name="nav" class="btn-outline" href="/book-a-call">Book a Call</a></li>
 							</ul>
 						</div>
 						<div class="hamb">
@@ -200,11 +200,11 @@ class Footer extends HTMLElement {
             	</p>
           	</div>
           	<div class="footer-links">
-            	<a href="/">Home</a>
-            	<a href="/#work">Work</a>
-            	<a href="/#about">About</a>
-            	<a href="/contact">Contact</a>
-							<a href="/posts">Posts</a>
+            	<a name="nav" href="/">Home</a>
+            	<a name="nav" href="/#work">Work</a>
+            	<a name="nav" href="/#about">About</a>
+            	<a name="nav" href="/contact">Contact</a>
+							<a name="nav" href="/posts">Posts</a>
           	</div>
           	<div class="footer-flex social">
             	<a
@@ -244,7 +244,7 @@ class Footer extends HTMLElement {
           	</div>
           	<div class="footer-flex">
             	<p>Ready to get started? Schedule your free consultation.</p>
-            	<div><a class="btn-footer" href="/book-a-call">Book a Call</a></div>
+            	<div><a name="nav" class="btn-footer" href="/book-a-call">Book a Call</a></div>
           	</div>
         	</div>
         	<div class="grid-row affiliates">
@@ -295,6 +295,19 @@ class Footer extends HTMLElement {
 }
 
 customElements.define('footer-component', Footer);
+
+// Check navigation links and update them if in subfolder
+function switchHref() {
+  if (location.pathname.split('/').length - 1 > 1) {
+    let links = Array.prototype.slice.call(document.getElementsByName('nav'));
+    links.forEach(function(link) {
+      let nav = link.getAttribute('href');
+      link.setAttribute('href', '..' + nav);
+    });    
+  };
+};
+
+switchHref(); 
 
 // NAVIGATION
 const hamb = document.querySelector(".hamb");
