@@ -13,7 +13,7 @@ class Header extends HTMLElement {
 				<nav class="navbar">
 					<div class="nav-flex container">
 						<div class="logo">
-							<a name="nav" href="/">
+							<a name="link" href="/">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									xml:space="preserve"
@@ -96,9 +96,9 @@ class Header extends HTMLElement {
 						</div>
 						<div class="main-nav">
 							<ul class="nav_list">
-								<li><a name="nav" class="nav-link" href="/#work">Work</a></li>
-								<li><a name="nav" class="nav-link" href="/#about">About</a></li>
-								<li><a name="nav" class="btn-outline" href="/book-a-call">Book a Call</a></li>
+								<li><a name="link" class="nav-link" href="/#work">Work</a></li>
+								<li><a name="link" class="nav-link" href="/#about">About</a></li>
+								<li><a name="link" class="btn-outline" href="/book-a-call">Book a Call</a></li>
 							</ul>
 						</div>
 						<div class="hamb">
@@ -200,11 +200,11 @@ class Footer extends HTMLElement {
             	</p>
           	</div>
           	<div class="footer-links">
-            	<a name="nav" href="/">Home</a>
-            	<a name="nav" href="/#work">Work</a>
-            	<a name="nav" href="/#about">About</a>
-            	<a name="nav" href="/contact">Contact</a>
-							<a name="nav" href="/posts">Posts</a>
+            	<a name="link" href="/">Home</a>
+            	<a name="link" href="/#work">Work</a>
+            	<a name="link" href="/#about">About</a>
+            	<a name="link" href="/contact">Contact</a>
+							<a name="link" href="/posts">Posts</a>
           	</div>
           	<div class="footer-flex social">
             	<a
@@ -235,7 +235,8 @@ class Footer extends HTMLElement {
               	rel="nofollow"
               >
 								<img
-                	src="images/Green_14.png"
+                	name="link"
+									src="/images/Green_14.png"
                 	border="0"
                 	alt="300% green website badge"
                 	loading="lazy"
@@ -244,7 +245,7 @@ class Footer extends HTMLElement {
           	</div>
           	<div class="footer-flex">
             	<p>Ready to get started? Schedule your free consultation.</p>
-            	<div><a name="nav" class="btn-footer" href="/book-a-call">Book a Call</a></div>
+            	<div><a name="link" class="btn-footer" href="/book-a-call">Book a Call</a></div>
           	</div>
         	</div>
         	<div class="grid-row affiliates">
@@ -261,7 +262,8 @@ class Footer extends HTMLElement {
           	<div class="grid-width-1">
             	<a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008">
               	<img 
-									src="images/Loveland-Chamber-Proud-member-Logo-Gray.png"
+									name="link"
+									src="/images/Loveland-Chamber-Proud-member-Logo-Gray.png"
 									alt="Loveland Chamber of Commerce logo"
 									loading="lazy"
 								/>
@@ -270,7 +272,8 @@ class Footer extends HTMLElement {
           	<div class="grid-width-1">
             	<a href="https://www.lovelandcreates.org/listing/ouzel-creative/">
               	<img 
-									src="images/lcd-H-logo-tagline-gray.png" 
+									name="link"
+									src="/images/lcd-H-logo-tagline-gray.png" 
 									alt="Loveland Creative District logo"
 									loading="lazy"
 								/>
@@ -296,13 +299,13 @@ class Footer extends HTMLElement {
 
 customElements.define('footer-component', Footer);
 
-// Check navigation links and update them if in subfolder
+// Check links and update them if in subfolder
 function switchHref() {
   if (location.pathname.split('/').length - 1 > 1) {
-    let links = Array.prototype.slice.call(document.getElementsByName('nav'));
+    let links = Array.prototype.slice.call(document.getElementsByName('link'));
     links.forEach(function(link) {
-      let nav = link.getAttribute('href');
-      link.setAttribute('href', '..' + nav);
+      let href = link.getAttribute('href');
+      link.setAttribute('href', '..' + href);
     });    
   };
 };
