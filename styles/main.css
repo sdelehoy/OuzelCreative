@@ -664,5 +664,8 @@ form textarea {
   font-size: 1.3rem;
 }
 h1:has(+ h2) {
-  margin-bottom: 0px;
+  margin-bottom: 8px;
+}
+.posts-date:has(+ p) {
+  margin-bottom: 48px;
 }
