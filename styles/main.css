@@ -660,7 +660,7 @@ form textarea {
 }
 /*-- POST PAGE --*/
 .post-subtitle {
-  font-weight: 300;
+  font-weight: 100;
   font-size: 1.3rem;
 }
 h1:has(+ h2) {
@@ -668,8 +668,9 @@ h1:has(+ h2) {
 }
 .posts-date:has(+ hr) {
   color: var(--c8);
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 .post-line {
-  
+  border: 0.01px solid var(--c6);
+  margin-bottom: 24px;
 }
