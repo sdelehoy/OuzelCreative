@@ -638,7 +638,7 @@ form textarea {
 .hero-img {
   height: 60vh;
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
 }
 /*-- POSTS PAGE --*/
 .posts-link {
