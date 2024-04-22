@@ -680,6 +680,6 @@ h1:has(+ h2) {
 .bold {
   font-weight: bold;
 }
-p + .indent {
+.indent {
   text-indent: 30%;
 }
