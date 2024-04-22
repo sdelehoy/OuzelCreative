@@ -674,3 +674,12 @@ h1:has(+ h2) {
   border: 0.01px solid var(--c6);
   margin-bottom: 24px;
 }
+.post-section-heading {
+  font-weight: 100;
+}
+.bold {
+  font-weight: bold;
+}
+p + .indent {
+  text-indent: 30%;
+}
