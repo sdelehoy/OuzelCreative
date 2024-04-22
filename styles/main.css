@@ -38,10 +38,11 @@ body {
 }
 body p {
   line-height: 160%;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
   body {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 }
 h1,
@@ -682,4 +683,10 @@ h1:has(+ h2) {
 }
 .indent {
   margin-left: 2ch;
+}
+p:has(+ .post-section-heading) {
+  margin-bottom: 64px;
+}
+.continue-reading {
+  margin-top: 64px;
 }
