@@ -681,5 +681,5 @@ h1:has(+ h2) {
   font-weight: bold;
 }
 .indent {
-  text-indent: 30%;
+  margin-left: 2ch;
 }
