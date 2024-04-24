@@ -236,9 +236,9 @@ class Footer extends HTMLElement {
               >
 								<img
                 	name="link"
-									src="/images/Green_14.png"
+									src="/images/Green_15.png"
                 	border="0"
-                	alt="300% green website badge"
+                	alt="Eco-friendly website badge"
                 	loading="lazy"
             		/>
 							</a>
