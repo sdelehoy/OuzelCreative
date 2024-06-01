@@ -202,9 +202,12 @@ class Footer extends HTMLElement {
           	<div class="footer-links">
             	<a name="link" href="/">Home</a>
             	<a name="link" href="/#work">Work</a>
-            	<a name="link" href="/#about">About</a>
             	<a name="link" href="/contact">Contact</a>
+          	</div>
+						<div class="footer-links">
+            	<a name="link" href="/#about">About</a>
 							<a name="link" href="/posts">Posts</a>
+							<a name="link" href="/sustainability">Sustainability</a>
           	</div>
           	<div class="footer-flex social">
             	<a
