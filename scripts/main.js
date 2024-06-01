@@ -199,7 +199,7 @@ class Footer extends HTMLElement {
               	Ouzel Creative is a graphic and web design studio located in Loveland, CO.
             	</p>
           	</div>
-					
+						<div class="footer-subgrid">
 							<div class="footer-links">
 								<a name="link" href="/">Home</a>
 								<a name="link" href="/#work">Work</a>
@@ -210,7 +210,7 @@ class Footer extends HTMLElement {
 								<a name="link" href="/posts">Posts</a>
 								<a name="link" href="/sustainability">Sustainability</a>
 							</div>
-						
+						</div>
           	<div class="footer-flex social">
             	<a
               	class="social-link"

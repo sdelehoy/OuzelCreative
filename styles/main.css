@@ -559,11 +559,11 @@ form textarea {
 .footer-logo {
   width: 200px;
 }
-/* .footer-links-flex {
+.footer-subgrid {
   display: grid;
-  gap: 30px;
+  grid-column: span 2;
   grid-template-columns: subgrid;
-} */
+}
 .footer-links {
   display: flex;
   flex-direction: column;
