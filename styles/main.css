@@ -534,7 +534,7 @@ form textarea {
 .footer-grid {
   border-bottom: 1px solid var(--c6);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   font-size: 1rem;
   gap: 30px;
   padding-bottom: 20px;
@@ -559,6 +559,11 @@ form textarea {
 .footer-logo {
   width: 200px;
 }
+/* .footer-links-flex {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: subgrid;
+} */
 .footer-links {
   display: flex;
   flex-direction: column;
