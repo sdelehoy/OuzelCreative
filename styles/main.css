@@ -681,6 +681,7 @@ h1:has(+ h2) {
   margin-bottom: 24px;
 }
 .post-section-heading {
+  font-size: 1.7rem;
   font-weight: 100;
 }
 .bold {
@@ -694,4 +695,7 @@ p:has(+ .post-section-heading) {
 }
 .continue-reading {
   margin-top: 64px;
+}
+.italic {
+ font-style: italic; 
 }
