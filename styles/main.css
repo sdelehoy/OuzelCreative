@@ -701,9 +701,15 @@ p:has(+ .post-section-heading) {
 }
 .callout {
   background-color: var(--c6);
+}
+.callout p {
+  font-family: var(--f3);
+  font-size: 1.8rem;
+  font-weight: 100;
+  line-height: 130%;
+}
+/* .callout {
+  background-color: var(--c6);
   border-radius: 24px;
-  padding: 40px;
-}
-* :is(.no-margin) {
-  margin: 0;
-}
+  padding: 32px;
+} */
