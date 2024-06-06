@@ -708,5 +708,6 @@ p:has(+ .post-section-heading) {
   padding: 0 32px;
 }
 .list {
-  
+  padding: 0 32px;
+  line-height: 160%;
 }
