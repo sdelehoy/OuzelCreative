@@ -686,7 +686,6 @@ h1:has(+ h2) {
 }
 .post-section-heading {
   font-size: 1.7rem;
-  font-weight: 100;
 }
 .bold {
   font-weight: bold;
