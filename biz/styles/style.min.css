@@ -52,7 +52,7 @@ a {
 #copyView,
 #qrView {
   display:flex;
-  lex-direction:column;
+  flex-direction:column;
   align-items:center;
   margin:0 1rem;
   text-align:center;
@@ -171,21 +171,29 @@ main {
   word-break:break-word;
 }
 .name {
-  font-weight:bold;
-  font-size:1.5rem;
-  margin:0;
+  font-family: "new-kansas", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.jobtitle {
+  font-size: .8rem;
+  letter-spacing: .2ch;
+  opacity: .8;
+  text-transform: uppercase;
 }
 .pronouns {
-  display:block;
-  font-size:.9rem;
-  opacity:.8;
-  font-weight:normal;
-  margin:0 0 .5rem;
+  display: block;
+  font-size: .9rem;
+  opacity: .8;
+  font-weight: normal;
+  margin: 0 0 .5rem;
 }
 .bizname {
-  font-size:.9rem;
-  margin:.5rem 0 0;
-  opacity:.8;
+  font-family: "new-kansas", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: .5rem 0 0;
 }
 .bizaddr {
   font-size:.8rem;
@@ -272,99 +280,99 @@ main {
   margin-top:1rem;
 }
 .media img {
-  display:block;
-  pointer-events:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  width:100%;
+  display: block;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
 }
 .embedded {
-  position:relative;
-  padding-top:100%;
+  position: relative;
+  padding-top: 100%;
 }
 .embedded iframe {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .music,
 .video {
-  width:100%;
+  width: 100%;
 }
 .mediaC {
-  display:flex;
-  flex-direction:column;
-  justify-content:space-evenly;
-  align-items:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 video {
-  width:100%;
+  width: 100%;
 }
 .controls {
-  padding:1rem;
-  font-size:.9rem;
-  text-align:center;
-  width:100%;
-  box-sizing:border-box;
+  padding: 1rem;
+  font-size: .9rem;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 .pCtrl,
 .docDl {
-  display:none;
-  flex-direction:column;
-  align-items:center;
-  width:100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 .docDl {
-  display:flex;
+  display: flex;
 }
 .seekBar {
-  width:100%;
-  height:.5rem;
-  margin:1.5rem 0 .5rem;
-  border-radius:5rem;
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  appearance:none;
-  cursor:pointer;
+  width: 100%;
+  height: .5rem;
+  margin: 1.5rem 0 .5rem;
+  border-radius: 5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
 }
 .playPause,
 .dlBtn {
-  margin:1rem 0 .5rem;
-  padding:1rem;
-  border-radius:5rem;
-  line-height:0;
-  cursor:pointer;
+  margin: 1rem 0 .5rem;
+  padding: 1rem;
+  border-radius: 5rem;
+  line-height: 0;
+  cursor: pointer;
 }
 .pause {
-  display:none;
+  display: none;
 }
 .title {
-  font-size:1rem;
-  font-weight:bold;
-  margin:0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
 }
 .prodInfo .sub {
-  margin:-1rem 0 0;
+  margin: -1rem 0 0;
 }
 .price {
-  margin:1rem 0 0;
-  font-size:1rem;
-  font-weight:bold;
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  font-weight: bold;
 }
 .label {
-  display:inline-block;
-  font-size:1rem;
-  margin:1rem 0 .5rem;
-  border-radius:5rem;
-  letter-spacing:1px;
-  padding:1rem 1.5rem;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem 0 .5rem;
+  border-radius: 5rem;
+  letter-spacing: 1px;
+  padding: 1rem 1.5rem;
 }
 .label p {
-  margin:0;
+  margin: 0;
 }
 footer {
   padding:4rem 1rem 2rem;
@@ -377,7 +385,7 @@ footer a {
   color:inherit;
 }
 #body {
-  font-family:quincy-cf, serif;
+  font-family: "nunito-sans", sans-serif;
 }
 input[type='range']::-moz-range-track {
   background: none;
@@ -403,11 +411,11 @@ input[type='range']::-webkit-slider-thumb {
   cursor: pointer;
 }
 .topAction {
-  filter:invert(1);
+  filter: invert(1);
 }
 .iconColor {
   color:#eee;
-  filter:invert(1);
+  filter: invert(1);
 }
 .cardColor {
   color:#222 !important;
