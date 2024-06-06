@@ -25,6 +25,10 @@ html,
 body,
 h1,
 h2,
+h3,
+h4,
+h5,
+h6,
 ul {
   margin: 0;
   padding: 0;
@@ -715,4 +719,7 @@ p:has(+ .post-section-heading) {
 }
 .flow > * + * {
   margin-top: 24px;
+}
+.flow h2 {
+  margin-top: 48px;
 }
