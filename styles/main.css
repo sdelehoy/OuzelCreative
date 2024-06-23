@@ -433,6 +433,16 @@ a:hover {
   object-fit: cover;
   width: 100%;
 }
+.steps-center-vert {
+  align-content: center;
+  display: grid;
+}
+.steps-list {
+  list-style-type: none;
+}
+.steps-list-item {
+  display: flex;
+}
 .work-divider {
   border: none;
   background-color: hsla(270, 2%, 25%, 0.1);
