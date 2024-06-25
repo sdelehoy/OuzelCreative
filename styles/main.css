@@ -357,6 +357,7 @@ a:hover {
   display: inline-block;
   font-family: var(--c2);
   font-size: 1rem;
+  font-weight: 400;
   min-width: 175px;
   padding: 10px 30px;
   text-align: center;
@@ -427,30 +428,42 @@ a:hover {
   object-fit: cover;
   width: 100%;
 }
+/*-- Steps Section --*/
 .steps-center-vert {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .steps-list {
-  list-style-type: none;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 200px 200px auto;
+  margin-top: 40px;
 }
-.steps-list-item {
-  display: flex;
+@media (min-width: 768px) {
+  .steps-list {
+    margin-top: 0;
+  }
+}
+.step {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 0;
 }
 .vert-line {
   background-color: var(--c5);
-  height: 30px;
-  width: 3px;
+  height: 96px;
+  width: 1px;
 }
 .center {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
 .steps-icon {
-  height: 100px;
-  width: 100px;
+  height: 72px;
+  width: 72px;
 }
 /*-- Work Section --*/
 .work-divider {
