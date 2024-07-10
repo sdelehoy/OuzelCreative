@@ -427,6 +427,7 @@ a:hover {
   border-radius: 25px 25px 0 0;
   object-fit: cover;
   width: 100%;
+  aspect-ratio: 1 / 1;
 }
 /*-- Steps Section --*/
 .steps-center-vert {
@@ -497,6 +498,7 @@ a:hover {
 .slides-prev,
 .slides-next {
   align-items: center;
+  background-color: hsla(0, 0%, 60%, 0.15);
   border-radius: 50%;
   color: var(--c4);
   cursor: pointer;
@@ -518,7 +520,7 @@ a:hover {
 }
 .slides-prev:hover,
 .slides-next:hover {
-  background-color: hsla(0, 0%, 60%, 0.5);
+  background-color: hsla(0, 0%, 60%, 0.6);
 }
 .fade {
   animation-name: fade;
@@ -538,6 +540,7 @@ a:hover {
   margin: 20px auto;
   max-width: 275px;
   width: 100%;
+  aspect-ratio: 1 / 1;
 }
 /*-- FORM --*/
 .form--flex {
