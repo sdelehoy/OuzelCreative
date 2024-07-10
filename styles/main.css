@@ -491,6 +491,7 @@ a:hover {
 .slides-img {
   border-radius: 25px;
   width: 100%;
+  aspect-ratio: 3 / 2;
 }
 .slides-prev,
 .slides-next {
