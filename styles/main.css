@@ -380,6 +380,7 @@ a:hover {
   margin-top: 32px;
   max-width: 480px;
   width: 100%;
+  aspect-ratio: 1 / 1;
 }
 @media (min-width: 768px) {
   .banner1-img {
