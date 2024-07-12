@@ -224,7 +224,7 @@ main {
   width:100%;
   justify-content:center;
   box-sizing:border-box;
-  background-color: rgb(255, 248, 209);
+  background-color: hsl(192, 100%, 48%);
   cursor: pointer;
 }
 #cta .icon {
@@ -430,7 +430,7 @@ input[type='range']::-webkit-slider-thumb {
 #sms,
 #mobile,
 #website {
-  background-color: rgb(255, 248, 209);
+  background-color: hsl(192, 100%, 48%);
   cursor: pointer;
 }
 #instagram {
