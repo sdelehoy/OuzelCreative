@@ -233,7 +233,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
       </div>
       <div class="grid-row affiliates">
         <div class="grid-width-1">
-          <a href="#" target="_blank" rel="nofollow">
+          <a href="#" target="_blank">
             <img 
               src= "/images/StoryBrand_Guide_Badge_White.png"
               alt="StoryBrand Guide badge"
