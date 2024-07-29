@@ -654,12 +654,25 @@ form textarea {
   transform: scale(103%) translateY(-2px);
 }
 .affiliates {
-  margin-top: 30px;
-  gap: 30px;
+  margin-top: 16px;
 }
 @media (max-width: 768px) {
   .affiliates {
     grid-template-columns: 1fr 1fr;
+  }
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+@media (max-width: 768px) {
+  .flex {
+    gap: 48px;
   }
 }
 .copyright {
