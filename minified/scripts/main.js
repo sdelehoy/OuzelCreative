@@ -243,6 +243,16 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
           </a>
         </div>
         <div class="grid-width-1">
+          <a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="nofollow">
+            <img 
+              src="https://seal-wynco.bbb.org/seals/gray-seal-96-50-bbb-46144719.png"
+              style="border: 0;"
+              alt="Ouzel Creative, LLC BBB Business Review"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        <div class="grid-width-1">
           <a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008" target="_blank">
             <img 
               name="link"
