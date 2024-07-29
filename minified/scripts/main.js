@@ -233,11 +233,10 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
       </div>
       <div class="grid-row affiliates">
         <div class="grid-width-1">
-          <a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="nofollow">
+          <a href="#" target="_blank" rel="nofollow">
             <img 
-              src="https://seal-wynco.bbb.org/seals/gray-seal-96-50-bbb-46144719.png"
-              style="border: 0;"
-              alt="Ouzel Creative, LLC BBB Business Review"
+              src= "/images/StoryBrand_Guide_Badge_White.png"
+              alt="StoryBrand Guide badge"
               loading="lazy"
             />
           </a>
