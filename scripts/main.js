@@ -254,6 +254,18 @@ class Footer extends HTMLElement {
           	</div>
         	</div>
 					<div class="flex space-between">
+						<div class="affiliates">
+							<div>
+          			<a href="https://marketingmadesimple.com" target="_blank" rel="nofollow">
+            			<img
+										width="125px"
+              			src="/images/StoryBrand_Guide_Badge_White.png"
+              			alt="StoryBrand Guide badge"
+              			loading="lazy"
+            			/>
+          			</a>
+        			</div>
+        		</div>
 						<div class="flex affiliates">
 							<div>
             		<a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="nofollow">
@@ -286,18 +298,6 @@ class Footer extends HTMLElement {
             		</a>
           		</div>
 						</div>
-        		<div class="affiliates">
-							<div>
-          			<a href="https://marketingmadesimple.com" target="_blank" rel="nofollow">
-            			<img
-										width="125px"
-              			src="/images/StoryBrand_Guide_Badge_White.png"
-              			alt="StoryBrand Guide badge"
-              			loading="lazy"
-            			/>
-          			</a>
-        			</div>
-        		</div>
 					</div>
         	<div class="copyright">
           	<div>
