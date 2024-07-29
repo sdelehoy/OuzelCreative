@@ -233,7 +233,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
       </div>
       <div class="grid-row affiliates">
         <div class="grid-width-1">
-          <a href="#" target="_blank">
+          <a href="https://marketingmadesimple.com" target="_blank" rel="nofollow">
             <img 
               src= "/images/StoryBrand_Guide_Badge_White.png"
               alt="StoryBrand Guide badge"
@@ -252,7 +252,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
           </a>
         </div>
         <div class="grid-width-1">
-          <a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008" target="_blank">
+          <a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008" target="_blank" rel="nofollow">
             <img 
               name="link"
               src="/images/Loveland-Chamber-Proud-member-Logo-Gray.png"
@@ -262,7 +262,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
           </a>
         </div>
         <div class="grid-width-1">
-          <a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank">
+          <a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank" rel="nofollow">
             <img 
               name="link"
               src="/images/lcd-H-logo-tagline-gray.png" 
