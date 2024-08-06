@@ -258,7 +258,7 @@ class Footer extends HTMLElement {
 					<div class="flex space-between">
 						<div class="flex affiliates">
 							<div>
-								<a href="https://marketingmadesimple.com" target="_blank" rel="nofollow">
+								<a href="https://www.marketingmadesimple.com/Katy-Delehoy" target="_blank" rel="nofollow">
 									<img
 										width="125px"
 										src="/images/StoryBrand_Guide_Badge_White.png"
