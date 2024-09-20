@@ -540,7 +540,7 @@ a:hover {
   align-items: center;
   background-color: hsla(0, 0%, 60%, 0.15);
   border-radius: 50%;
-  color: var(--c4);
+  color: var(--c1);
   cursor: pointer;
   display: flex;
   font-size: 20px;
