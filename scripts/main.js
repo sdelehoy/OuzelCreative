@@ -60,7 +60,7 @@ class Footer extends HTMLElement {
             	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2131.29 376.1">
               	<style>
                 	.cls-1 {
-                  	fill: #414042;
+                  	fill: #00313d;
                 	}
                 	.cls-1,
                 	.cls-2,
