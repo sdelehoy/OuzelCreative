@@ -430,9 +430,24 @@ a:hover {
 .benefits {
   background-image: 
   linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
-  url(../images/happy_business_owner.jpeg);
+  url(../images/happy_business_owner_800w.webp);
   background-position: 50% 15%;
+  background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 768px) {
+  .benefits {
+    background-image: 
+    linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
+    url(../images/happy_business_owner_1000w.webp);
+  }
+}
+@media (min-width: 992px) {
+  .benefits {
+    background-image: 
+    linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
+    url(../images/happy_business_owner_2560w.webp);
+  }
 }
 .benefit {
   display: flex;
