@@ -427,6 +427,13 @@ a:hover {
     margin-top: 0;
   }
 }
+.benefits {
+  background-image: linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
+  url(../images/happy_business_owner.jpeg);
+  background-blend-mode: ;
+  background-position: 50% 20%;
+  background-size: cover;
+}
 .stakes-flex {
   align-items: center;
   display: flex;
