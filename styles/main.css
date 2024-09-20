@@ -45,7 +45,7 @@ body p {
 }
 @media (min-width: 768px) {
   body {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 }
 h1,
@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
   font-family: var(--f3);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 120%;
 }
 h1,
@@ -64,7 +64,7 @@ h2 {
 }
 @media (min-width: 768px) {
   h1, h2 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 }
 h3 {
@@ -274,6 +274,35 @@ a:hover {
   }
 }
 /*-- PARALLAX LANDSCAPE --*/
+.hero-headline {
+  color: hsl(192 100% 12% / 80%);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--f3);
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-content: center;
+  /* left: 50%; */
+  position: fixed;
+  top: 175px;
+  text-align: center;
+  /* transform: translateX(-50%); */
+  width: 100vw;
+}
+.plus {
+  display: none;
+}
+@media (min-width: 768px) {
+  .hero-headline {
+    flex-direction: row;
+    font-size: 2.3rem;
+    top: 225px;
+  }
+  .plus {
+    display: inline;
+  }
+}
+
 .html-parallax {
   overflow: hidden;
 }
@@ -341,7 +370,7 @@ a:hover {
   padding-bottom: 104px;
 }
 .main-section-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 48px;
 }
 .btn-container {
