@@ -482,7 +482,7 @@ a:hover {
   width: 50px;
 }
 .stakes-card {
-  background-color: hsl(0 0% 100% / 90%);
+  background-color: hsl(0 0% 100% / 70%);
   border-radius: 25px;
   color: var(--c1);
   margin-bottom: 48px;
@@ -496,8 +496,8 @@ a:hover {
 }
 .stakes-question {
   font-family: var(--f2);
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.7rem;
+  font-weight: 600;
   line-height: 120%;
   margin-top: 0;
 }
