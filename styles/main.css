@@ -482,8 +482,10 @@ a:hover {
   width: 50px;
 }
 .stakes-question {
-  font-size: 1.5rem;
-  font-weight: 200;
+  font-family: var(--f3);
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 120%;
 }
 .card-container {
   column-gap: 15px;
