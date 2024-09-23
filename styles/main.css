@@ -470,28 +470,17 @@ a:hover {
   text-shadow: 0px 0px 16px hsl(192 100% 5% / 100%);
   text-align: center;
 }
-.stakes-flex {
-  align-items: center;
-  display: flex;
-  gap: 30px;
-}
-.stakes-icon {
-  background: hsla(192, 100%, 48%, 0.3);
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-}
 .stakes-card {
-  background-color: hsl(0 0% 100% / 70%);
   border-radius: 25px;
+  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
   color: var(--c1);
+  gap: 0;
   margin-bottom: 48px;
 }
 .stakes-content {
   background-color: hsl(195 25% 94%);
-  border-radius: 25px;
+  border-radius: 25px 25px 0 0;
   padding: 56px;
-  margin-right: -35px;
   z-index: 2;
 }
 .stakes-text {
@@ -505,29 +494,36 @@ a:hover {
   margin-top: 0;
 }
 .stakes-img {
-  background-image: url(../images/DMC-8-web.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0 25px 25px 0;
-  margin-left: -35px;
+  aspect-ratio: 3 / 2;
+  border-radius: 0 0 25px 25px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .stakes-content {
+    border-radius: 25px 0 0 25px;
+  }
+  .stakes-img {
+    border-radius: 0 25px 25px 0;
+  }
 }
 .card-container {
   column-gap: 15px;
   margin-top: 15px;
 }
 .card {
-  background-color: var(--c9);
-  border-top: 1px solid hsla(0, 0%, 100%, 0.25);
+  background-color: hsl(195 25% 94%);
   border-radius: 25px;
-  box-shadow: hsla(0 0% 0% / 30%) 0px 10px 15px;
-  padding: 10px;
-  margin-top: 30px;
+  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
+  color: var(--c1);
+  margin-top: 32px;
 }
 .card-text {
-  padding: 0 20px 10px 20px;
+  padding: 32px;
 }
 .card-text p {
-  font-size: 1rem;
+  margin-bottom: 0;
 }
 .card-text h3 {
   font-size: 1.5rem;
