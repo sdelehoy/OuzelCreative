@@ -521,8 +521,8 @@ a:hover {
 }
 .card {
   background-color: hsl(195 25% 94%);
-  border-radius: 25px;
-  box-shadow: hsl(192 100% 12% / 30%) 0px 10px 0px;
+  border-radius: 26px 26px 25px 25px;
+  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
   color: var(--c1);
   margin-top: 32px;
 }
