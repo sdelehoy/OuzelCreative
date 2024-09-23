@@ -294,6 +294,7 @@ a:hover {
   top: 175px;
   text-align: center;
   width: 100vw;
+  z-index: 1;
 }
 .plus {
   display: none;
