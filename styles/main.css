@@ -9,6 +9,7 @@
   --c7: hsl(51, 100%, 75%);
   --c8: hsl(192, 91%, 82%);
   --c9: hsl(260, 2%, 24%);
+  --c10: hsl(192 100% 18%);
   --f2: "nunito-sans", sans-serif;
   --f3: "new-kansas", serif;
 }
@@ -83,6 +84,12 @@ a:hover {
 }
 .bg-c6 {
   background-color: var(--c6);
+}
+.bg-c8 {
+  background-color: var(--c8);
+}
+.bg-c10 {
+  background-color: var(--c10);
 }
 .container {
   margin: 0 auto;
@@ -515,18 +522,20 @@ a:hover {
 .card {
   background-color: hsl(195 25% 94%);
   border-radius: 25px;
-  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
+  box-shadow: hsl(192 100% 12% / 30%) 0px 10px 0px;
   color: var(--c1);
   margin-top: 32px;
 }
 .card-text {
-  padding: 32px;
+  padding: 32px 40px 40px 40px;
 }
 .card-text p {
   margin-bottom: 0;
 }
 .card-text h3 {
+  font-family: var(--f2);
   font-size: 1.5rem;
+  font-weight: 600;
 }
 .card-img {
   border-radius: 25px 25px 0 0;
