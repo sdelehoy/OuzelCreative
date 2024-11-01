@@ -13,7 +13,7 @@ class Header extends HTMLElement {
 				<nav class="navbar">
 					<div class="nav-flex container">
 						<div class="logo">
-							<a name="link" href="/">
+							<a name="link" href="/" aria-label="Ouzel Creative home page">
 								<svg xmlns="http://www.w3.org/2000/svg" id="Text" viewBox="0 0 2927.64 549.96">
 									<defs>
 										<style>
