@@ -43,6 +43,7 @@ body {
 body p {
   line-height: 160%;
   margin-bottom: 16px;
+  margin-top: 0;
 }
 @media (min-width: 768px) {
   body {
@@ -62,6 +63,7 @@ h6 {
 h1,
 h2 {
   font-size: 2rem;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
   h1, h2 {
@@ -392,7 +394,7 @@ a:hover {
 }
 .main-section-heading {
   font-size: 2.5rem;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 .btn-container {
   margin-top: 32px;
@@ -421,7 +423,7 @@ a:hover {
 .banner1-services {
   font-weight: 300;
   letter-spacing: 0.1rem;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   text-transform: uppercase;
   word-spacing: 0.2rem;
 }
@@ -465,8 +467,9 @@ a:hover {
   align-items: center;
 }
 .benefit-icon {
-  height: 50px;
-  width: 50px;
+  height: 48px;
+  width: 48px;
+  margin-bottom: 16px;
 }
 .benefit-title {
   font-family: var(--f3);
@@ -485,7 +488,7 @@ a:hover {
   box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
   color: var(--c1);
   gap: 0;
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 .stakes-content {
   background-color: hsl(195 25% 94%);
@@ -519,18 +522,19 @@ a:hover {
   }
 }
 .card-container {
-  column-gap: 15px;
-  margin-top: 15px;
+  column-gap: 16px;
 }
 .card {
   background-color: hsl(195 25% 94%);
   border-radius: 26px 26px 25px 25px;
   box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
   color: var(--c1);
-  margin-top: 32px;
 }
 .card-text {
-  padding: 32px 40px 40px 40px;
+  padding: 32px;
+}
+.card-text h3 {
+  margin-bottom: 16px;
 }
 .card-text p {
   margin-bottom: 0;
