@@ -154,14 +154,13 @@ a:hover {
 .main-nav {
   background-color: hsla(51, 100%, 91%, 0.8);
   right: -50px;
-  padding-right: 10px;
-  padding-top: 100px;
+  padding: 104px 12px 24px 0;
   position: fixed;
   top: 0;
   max-width: 0;
   transition: all 0.3s ease-in-out;
-  width: 250px;
-  z-index: 1;
+  width: 248px;
+  z-index: 2;
 }
 .main-nav.active {
   max-width: 100%;
@@ -173,7 +172,6 @@ a:hover {
   gap: 16px;
   justify-content: center;
   margin: auto;
-  padding: 24px 0;
 }
 .nav_list li {
   list-style: none;
@@ -187,7 +185,7 @@ a:hover {
 }
 .btn-outline {
   border: 2px solid var(--c5);
-  border-radius: 30px;
+  border-radius: 36px;
   color: var(--c1);
   font-weight: 400;
   transition: all 0.3s;
