@@ -98,6 +98,11 @@ a:hover {
   max-width: 1080px;
   padding: 0 24px;
 }
+@media (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+}
 /* Grid */
 .grid-row {
   display: grid;
@@ -493,7 +498,10 @@ a:hover {
 .stakes-content {
   background-color: hsl(195 25% 94%);
   border-radius: 25px 25px 0 0;
-  padding: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
   z-index: 2;
 }
 .stakes-text {
@@ -507,7 +515,7 @@ a:hover {
   margin-top: 0;
 }
 .stakes-img {
-  aspect-ratio: 3 / 2;
+  /* aspect-ratio: 3 / 2; */
   border-radius: 0 0 25px 25px;
   object-fit: cover;
   height: 100%;
@@ -537,6 +545,7 @@ a:hover {
   margin-bottom: 16px;
 }
 .card-text p {
+  font-size: 1rem;
   margin-bottom: 0;
 }
 .card-text h3 {
@@ -558,8 +567,8 @@ a:hover {
 }
 .steps-list {
   display: grid;
-  grid-template-columns: 150px 1fr;
-  grid-template-rows: 200px 200px auto;
+  grid-template-columns: 144px 1fr;
+  grid-template-rows: 168px 168px auto;
   margin-top: 40px;
 }
 @media (min-width: 768px) {
@@ -574,14 +583,14 @@ a:hover {
 }
 .vert-line {
   background-color: var(--c5);
-  height: 96px;
+  height: 80px;
   width: 1px;
 }
 .center {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
 }
 .steps-icon {
   height: 72px;
@@ -599,6 +608,9 @@ a:hover {
     visibility: visible;
     margin: 20px 0;
   }
+}
+.work-heading {
+  margin-bottom: 16px;
 }
 .slideshow {
   max-width: 1000px;
