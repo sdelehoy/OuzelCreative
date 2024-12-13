@@ -683,28 +683,27 @@ form textarea {
   background-color: var(--c1);
   color: hsl(0, 0%, 70%);
   font-weight: 400;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-top: 80px;
   transform: translateY(-1px);
 }
 .footer-grid {
-  border-bottom: 1px solid var(--c6);
   display: grid;
   grid-template-columns: 1fr;
   font-size: 1rem;
-  gap: 30px;
-  padding-bottom: 20px;
+  gap: 32px;
+  margin-bottom: 80px;
 }
 @media (min-width: 768px) {
   .footer-grid {
-    gap: 30px;
+    gap: 24px;
     grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
   }
 }
 .footer-flex {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 .footer p {
   margin: 0;
@@ -726,25 +725,30 @@ form textarea {
 }
 .footer-links a {
   color: hsl(0, 0%, 70%);
-  padding: 10px;
+  padding: 8px;
   text-decoration: none;
   transition: all 0.3s;
 }
 .footer-links a:hover {
   color: var(--c5);
 }
+.social {
+  display: flex;
+  flex-direction: column;
+}
 .social-link {
   align-items: center;
   color: hsl(0, 0%, 70%);
   display: flex;
-  gap: 5px;
+  gap: 4px;
+  padding: 8px;
   text-decoration: none;
   transition: all 0.3s;
 }
 .social-img {
-  height: 30px;
+  height: 40px;
   padding-right: 5px;
-  width: 30px;
+  width: 40px;
 }
 .social-link:hover {
   color: var(--c5);
@@ -769,7 +773,8 @@ form textarea {
   transform: scale(103%) translateY(-2px);
 }
 .affiliates {
-  margin-top: 16px;
+  border-top: 1px solid var(--c6);
+  padding-top: 32px;
 }
 @media (max-width: 768px) {
   .affiliates {
@@ -795,7 +800,7 @@ form textarea {
   flex-wrap: wrap;
   font-size: 0.8rem;
   gap: 10px;
-  margin-top: 30px;
+  padding-top: 32px;
 }
 .copyright a {
   color: hsl(0, 0%, 70%);

@@ -144,7 +144,7 @@ class Footer extends HTMLElement {
 								<a name="link" href="/sustainability">Sustainability</a>
 							</div>
 						</div>
-          	<div class="footer-flex social">
+          	<div class="social">
             	<a
               	class="social-link"
               	href="https://www.instagram.com/ouzelcreative/"
@@ -188,8 +188,8 @@ class Footer extends HTMLElement {
             	<div><a name="link" class="btn-footer" href="/book-a-call">Book a Call</a></div>
           	</div>
         	</div>
-					<div class="flex space-between">
-						<div class="flex affiliates">
+					<div class="flex space-between affiliates">
+						<div class="flex">
 							<div>
 								<a href="https://www.marketingmadesimple.com/Katy-Delehoy" target="_blank" rel="nofollow">
 									<img
@@ -211,7 +211,7 @@ class Footer extends HTMLElement {
 								</a>
 							</div>
         		</div>
-						<div class="flex affiliates">
+						<div class="flex">
 							<div>
             		<a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="nofollow">
 									<img 
