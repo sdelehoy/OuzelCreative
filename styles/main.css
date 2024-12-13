@@ -42,7 +42,7 @@ body {
 }
 body p {
   line-height: 160%;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   body {
@@ -94,7 +94,7 @@ a:hover {
 .container {
   margin: 0 auto;
   max-width: 1080px;
-  padding: 0 20px;
+  padding: 0 24px;
 }
 /* Grid */
 .grid-row {
@@ -170,8 +170,10 @@ a:hover {
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 16px;
   justify-content: center;
   margin: auto;
+  padding: 24px 0;
 }
 .nav_list li {
   list-style: none;
@@ -179,8 +181,7 @@ a:hover {
 .nav_list li a,
 .logo a {
   display: block;
-  margin: 12px;
-  padding: 5px 15px;
+  padding: 4px 16px;
   position: relative;
   text-decoration: none;
 }
@@ -275,6 +276,7 @@ a:hover {
     flex-direction: row;
     justify-content: flex-end;
     position: relative;
+    gap: 16px;
   }
   .hamb {
     display: none;
@@ -692,7 +694,7 @@ form textarea {
   grid-template-columns: 1fr;
   font-size: 1rem;
   gap: 32px;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 @media (min-width: 768px) {
   .footer-grid {
@@ -747,7 +749,6 @@ form textarea {
 }
 .social-img {
   height: 40px;
-  padding-right: 5px;
   width: 40px;
 }
 .social-link:hover {
@@ -757,11 +758,11 @@ form textarea {
 .btn-footer {
   background: var(--c5);
   border: none;
-  border-radius: 30px;
+  border-radius: 32px;
   box-shadow: hsla(192, 100%, 6%, 0.8) 0px 3px 0px;
   color: hsla(192, 100%, 6%, 0.8);
   display: inline-block;
-  padding: 5px 30px;
+  padding: 8px 32px;
   text-align: center;
   text-decoration: none;
   transition: all 0.3s;
