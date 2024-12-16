@@ -40,15 +40,20 @@ body {
   font-weight: 300;
   scroll-behavior: smooth;
 }
-body p {
-  line-height: 160%;
-  margin-bottom: 16px;
-  margin-top: 0;
-}
 @media (min-width: 768px) {
   body {
     font-size: 1.15rem;
   }
+}
+p {
+  line-height: 160%;
+  margin-top: 0;
+}
+p:has(+ p) {
+  margin-bottom: 16px;
+}
+p:not(:has(+ p)) {
+  margin-bottom: 0;
 }
 h1,
 h2,
