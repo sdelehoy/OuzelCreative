@@ -295,8 +295,19 @@ a:hover {
   }
 }
 /*-- PARALLAX LANDSCAPE --*/
-.hero-headline {
+.hero-headline-wrapper {
   color: var(--c1);
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  position: fixed;
+  text-align: center;
+  text-wrap: balance;
+  top: 150px;
+  width: 100vw;
+  z-index: 1;
+}
+.hero-headline {
   display: flex;
   flex-direction: column;
   font-family: var(--f3);
@@ -304,23 +315,14 @@ a:hover {
   font-weight: 500;
   justify-content: center;
   line-height: 1.3;
-  position: fixed;
-  top: 175px;
-  text-align: center;
-  width: 100vw;
-  z-index: 1;
 }
-.plus {
+.space {
   display: none;
 }
 @media (min-width: 480px) {
   .hero-headline {
-    flex-direction: row;
     font-size: 1.75rem;
     top: 200px;
-  }
-  .plus {
-    display: inline;
   }
 }
 @media (min-width: 768px) {
@@ -331,9 +333,26 @@ a:hover {
 }
 @media (min-width: 992px) {
   .hero-headline {
+    flex-direction: row;
     font-size: 3rem;
     top: 225px;
   }
+  .space {
+    display: inline;
+  }
+}
+.hero-subtitle {
+  font-family: var(--f2);
+  font-size: 1.5rem;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.3;
+  /* position: fixed;
+  top: 150px; */
+  text-align: center;
+  text-wrap: balance;
+  width: 100vw;
+  z-index: 1;
 }
 
 .html-parallax {
