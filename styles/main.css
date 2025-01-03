@@ -64,6 +64,7 @@ h6 {
   font-family: var(--f3);
   font-weight: 500;
   line-height: 120%;
+  text-wrap: balance;
 }
 h1,
 h2 {
