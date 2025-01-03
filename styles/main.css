@@ -307,6 +307,24 @@ a:hover {
   width: 100vw;
   z-index: 1;
 }
+@media (min-width: 480px) {
+  .hero-headline-wrapper {
+    top: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .hero-headline-wrapper {
+    top: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .hero-headline-wrapper {
+    top: 200px;
+  }
+  .space {
+    display: inline;
+  }
+}
 .hero-headline {
   display: flex;
   flex-direction: column;
