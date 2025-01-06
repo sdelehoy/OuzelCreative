@@ -422,13 +422,14 @@ a:hover {
   transform: translateZ(0) scale(1);
 }
 .ouzel {
-  animation: bounce 3s infinite;
-  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  animation: bounce 3.5s infinite;
+  animation-timing-function: cubic-bezier(0.83, 0.08, 0.18, 0.84 );
+  backface-visibility: visible !important;
 }
 @keyframes bounce {
 	40% {transform: translateY(0);}
-	45% {transform: translateY(10px);}
-  50% {transform: translateY(0);}
+	44% {transform: translateY(10px);}
+  48% {transform: translateY(0);}
 }
 /*-- MAIN CONTENT --*/
 .main {
