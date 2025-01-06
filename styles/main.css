@@ -449,10 +449,9 @@ a:hover {
   margin-top: 32px;
 }
 .btn-main {
-  background: var(--c5);
-  border: none;
+  background-color: var(--c5);
   border-radius: 48px;
-  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 3px 0px;
+  box-shadow: hsla(192 100% 6% / 0.8) 0px 3px 0px;
   color: hsla(192, 100%, 6%, 0.8);
   display: inline-block;
   font-family: var(--c2);
@@ -465,8 +464,8 @@ a:hover {
   transition: all 0.3s;
 }
 .btn-main:hover {
-  background: hsl(192, 100%, 68%);
-  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
+  background: hsl(192 100% 68%);
+  box-shadow: hsla(192, 100%, 6%, 0.7) 0px 10px 1px;
   transform: scale(103%) translateY(-2px);
 }
 .banner1-services {
@@ -720,7 +719,7 @@ a:hover {
   width: 100%;
   aspect-ratio: 1 / 1;
 }
-.ouzel {
+.about-ouzel {
   background-color: var(--c4);
   border-radius: 24px;
   color: var(--c2);
