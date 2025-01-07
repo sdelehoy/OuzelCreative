@@ -367,7 +367,7 @@ a:hover {
   width: 100vw;
 }
 .parallax {
-  height: clamp(600px, 62.5vw, 999px);
+  height: clamp(800px, 62.5vw, 999px);
   transform-style: preserve-3d;
 }
 .parallax_layer {
@@ -382,7 +382,7 @@ a:hover {
   left: 50%;
   position: absolute;
   transform: translateX(-50%);
-  width: clamp(1536px, 160vw, 2560px);
+  width: clamp(2048px, 160vw, 2560px);
 }
 .parallax_svg svg {
   display: block;
