@@ -390,21 +390,26 @@ a:hover {
 }
 .layer1 {
   transform: translateZ(-3px) scale(4);
+  filter: blur(1px);
 }
 .layer2 {
   transform: translateZ(-2.5px) scale(3.5);
+  filter: blur(0.8px);
 }
 .layer2-5 {
   transform: translateZ(-2.5px) scale(3.5);
 }
 .layer3 {
   transform: translateZ(-2px) scale(3);
+  filter: blur(0.6px);
 }
 .layer4 {
   transform: translateZ(-1.5px) scale(2.5);
+  filter: blur(0.4px);
 }
 .layer5 {
   transform: translateZ(-0.8px) scale(1.8);
+  filter: blur(0.2px);
 }
 .layer6 {
   transform: translateZ(-0.55px) scale(1.55);
