@@ -250,6 +250,10 @@ class Footer extends HTMLElement {
               	Copyright &copy; <span id="copyright-year"></span> Ouzel Creative. All rights reserved.
             	</p>
           	</div>
+						<div>&vert;</div>
+						<div>
+							<p>Images of Katy &amp; Shawn by<a href="https://www.danamartincreative.com">Dana Martin Creative</a></p>
+						</div>
           	<div>&vert;</div>
           	<div><a name="link" href="/privacy-policy">Privacy Policy</a></div>
           	<div>&vert;</div>
