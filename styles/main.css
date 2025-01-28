@@ -878,13 +878,13 @@ form textarea {
   gap: 10px;
   padding-top: 32px;
 }
-.copyright a {
+.copyright-link {
   color: hsl(0, 0%, 70%);
   padding: 10px;
   text-decoration: none;
   transition: all 0.3s;
 }
-.copyright a:hover {
+.copyright-link:hover {
   color: var(--c5);
 }
 

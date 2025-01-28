@@ -252,12 +252,12 @@ class Footer extends HTMLElement {
           	</div>
 						<div>&vert;</div>
 						<div>
-							<p>Images of Katy &amp; Shawn by<a href="https://www.danamartincreative.com">Dana Martin Creative</a></p>
+							<p>Images of Katy &amp; Shawn by <a href="https://www.danamartincreative.com">Dana Martin Creative</a></p>
 						</div>
           	<div>&vert;</div>
-          	<div><a name="link" href="/privacy-policy">Privacy Policy</a></div>
+          	<div><a class="copyright-link" name="link" href="/privacy-policy">Privacy Policy</a></div>
           	<div>&vert;</div>
-          	<div><a name="link" href="/terms-of-service">Terms of Service</a></div>
+          	<div><a class="copyright-link" name="link" href="/terms-of-service">Terms of Service</a></div>
         	</div>
       	</div>
     	</footer>
