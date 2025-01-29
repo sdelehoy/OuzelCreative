@@ -446,15 +446,17 @@ a:hover {
   display: grid;
   grid-template-columns: 208px 208px;
   gap: 20px;
-  justify-content: center;
   margin-top: 32px;
 }
-.btn-main {
-  background-color: hsl(192 100% 48%);
-  border: solid 4px var(--c5);
+.btn-container-center {
+  justify-content: center;
+}
+.button {
+  /* background-color: hsl(192 100% 48%); */
+  /* border: solid 4px var(--c5); */
   border-radius: 48px;
-  box-shadow: hsla(192 100% 6% / 0.4) 0px 2px 1px;
-  color: var(--c1);
+  /* box-shadow: hsla(192 100% 6% / 0.4) 0px 2px 1px; */
+  /* color: var(--c1); */
   display: inline-block;
   font-family: var(--c2);
   font-size: 1rem;
@@ -464,6 +466,22 @@ a:hover {
   text-align: center;
   text-decoration: none;
   transition: all 0.3s;
+}
+.btn-main {
+  background-color: hsl(192 100% 48%);
+  border: solid 4px var(--c5);
+  border-radius: 48px;
+  box-shadow: hsla(192 100% 6% / 0.4) 0px 2px 1px;
+  color: var(--c1);
+  /* display: inline-block; */
+  /* font-family: var(--c2); */
+  /* font-size: 1rem; */
+  /* font-weight: 600; */
+  /* min-inline-size: fit-content; */
+  /* padding: 10px 16px; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* transition: all 0.3s; */
 }
 .btn-main:hover {
   background: hsl(192 100% 62%);
@@ -892,24 +910,6 @@ form textarea {
 }
 .social-link:hover {
   color: var(--c5);
-  transform: scale(103%) translateY(-2px);
-}
-.btn-footer {
-  background: var(--c5);
-  border: none;
-  border-radius: 32px;
-  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 3px 0px;
-  color: hsla(192, 100%, 6%, 0.8);
-  display: inline-block;
-  padding: 8px 32px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s;
-  width: auto;
-}
-.btn-footer:hover {
-  background: hsl(192, 100%, 68%);
-  box-shadow: hsla(192, 100%, 6%, 0.8) 0px 10px 0px;
   transform: scale(103%) translateY(-2px);
 }
 .affiliates {
