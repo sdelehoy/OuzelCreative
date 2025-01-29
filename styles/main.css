@@ -471,6 +471,7 @@ a:hover {
 }
 .button:active {
   border: solid 4px hsl(192 100% 44%);
+  box-shadow: none;
   transform: scale(99%) translateY(2px);
 }
 .btn-main {
@@ -484,7 +485,8 @@ a:hover {
   color: hsl(192 100% 20%);
 }
 .btn-main:active {
-  background: hsl(192 100% 44%);
+  background-color: hsl(192 100% 44%);
+  box-shadow: none;
   color: hsl(192, 100%, 8%);
 }
 .btn-alternate-1 {
@@ -499,7 +501,8 @@ a:hover {
   color: hsl(192, 100%, 20%);
 }
 .btn-alternate-1:active {
-  background: hsl(192 100% 78% / 0.3);
+  background-color: hsl(192 100% 78% / 0.3);
+  box-shadow: none;
   color: hsl(192, 100%, 8%);
 }
 .btn-alternate-2 {
@@ -507,12 +510,13 @@ a:hover {
   color: var(--c5);
 }
 .btn-alternate-2:hover {
-  background: hsl(192 100% 48% / 0.2);
+  background-color: hsl(192 100% 48% / 0.2);
   box-shadow: hsla(192 100% 60% / 0.4) 0px 0px 15px;
   color: hsl(192, 100%, 58%);
 }
 .btn-alternate-2:active {
-  background: hsl(192 100% 78% / 0.3);
+  background-color: transparent;
+  box-shadow: none;
   color: hsl(192, 100%, 44%);
 }
 .banner1-services {
