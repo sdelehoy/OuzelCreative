@@ -197,17 +197,6 @@ a:hover {
   position: relative;
   text-decoration: none;
 }
-.btn-outline {
-  border: 2px solid var(--c5);
-  border-radius: 48px;
-  color: var(--c1);
-  font-weight: 400;
-  transition: all 0.3s;
-}
-.btn-outline:hover {
-  box-shadow: hsla(192, 100%, 48%, 0.8) 0px 5px 0px;
-  transform: scale(103%) translateY(-2px);
-}
 .nav-link {
   color: var(--c1);
   font-weight: 400;
@@ -480,11 +469,13 @@ a:hover {
   background: hsl(192 100% 62%);
   border: solid 4px hsl(192 100% 62%);
   box-shadow: hsla(192 100% 60% / 0.4) 0px 0px 15px;
+  color: hsl(192 100% 20%);
   transform: scale(102%) translateY(-1px);
 }
 .btn-main:active {
   background: hsl(192 100% 44%);
   border: solid 4px hsl(192 100% 44%);
+  color: hsl(192, 100%, 8%);
   transform: scale(99%) translateY(2px);
 }
 .btn-alternate {
@@ -509,11 +500,13 @@ a:hover {
   background: hsl(192 100% 96% / 0.3);
   border: solid 4px hsl(192 100% 62%);
   box-shadow: hsla(192 100% 60% / 0.4) 0px 0px 15px;
+  color: hsl(192, 100%, 20%);
   transform: scale(102%) translateY(-1px);
 }
 .btn-alternate:active {
   background: hsl(192 100% 78% / 0.3);
   border: solid 4px hsl(192 100% 44%);
+  color: hsl(192, 100%, 8%);
   transform: scale(99%) translateY(2px);
 }
 .banner1-services {
