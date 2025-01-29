@@ -511,7 +511,7 @@ a:hover {
 }
 .btn-alternate-2 {
   backdrop-filter: blur(4px);
-  background-color: hsl(192 100% 80% / 0.3);
+  background-color: none;
   border: solid 4px var(--c5);
   border-radius: 48px;
   box-shadow: hsla(192 100% 6% / 0.4) 0px 2px 1px;
@@ -527,11 +527,10 @@ a:hover {
   transition: all 0.3s;
 }
 .btn-alternate-2:hover {
-  backdrop-filter: blur(8px);
-  background: hsl(192 100% 96% / 0.3);
+  background: hsl(192 100% 48% / 0.2);
   border: solid 4px hsl(192 100% 62%);
   box-shadow: hsla(192 100% 60% / 0.4) 0px 0px 15px;
-  color: hsl(192, 100%, 20%);
+  color: hsl(192, 100%, 58%);
   transform: scale(102%) translateY(-1px);
 }
 .btn-alternate-2:active {
