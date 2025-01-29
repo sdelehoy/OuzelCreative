@@ -453,13 +453,17 @@ a:hover {
   margin-bottom: 72px;
 }
 .btn-container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 20px;
+  justify-content: center;
   margin-top: 32px;
 }
 .btn-main {
-  background-color: var(--c5);
+  background-color: hsl(192 100% 48%);
   border-radius: 48px;
-  box-shadow: hsla(192 100% 6% / 0.8) 0px 3px 0px;
-  color: hsla(192, 100%, 6%, 0.8);
+  box-shadow: hsla(192 100% 6% / 0.4) 0px 2px 1px;
+  color: var(--c1);
   display: inline-block;
   font-family: var(--c2);
   font-size: 1rem;
@@ -471,9 +475,14 @@ a:hover {
   transition: all 0.3s;
 }
 .btn-main:hover {
-  background: hsl(192 100% 68%);
-  box-shadow: hsla(192, 100%, 6%, 0.7) 0px 10px 1px;
-  transform: scale(103%) translateY(-2px);
+  background: hsl(192 100% 58%);
+  box-shadow: hsla(192 100% 60% / 0.4) 0px 0px 15px;
+  transform: scale(102%) translateY(-1px);
+}
+.btn-main:active {
+  background: hsl(192 100% 44%);
+  /* box-shadow: inset hsla(192 100% 6% / 0.4) 0px 0px 20px; */
+  transform: scale(99%) translateY(2px);
 }
 .banner1-services {
   font-weight: 300;
