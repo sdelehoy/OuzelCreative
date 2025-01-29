@@ -31,7 +31,7 @@ class Header extends HTMLElement {
 							<ul class="nav_list">
 								<li><a name="link" class="nav-link" href="/#work">Work</a></li>
 								<li><a name="link" class="nav-link" href="/#about">About</a></li>
-								<li><a name="link" class="btn-alternate" href="/book-a-call">Book a Call</a></li>
+								<li><a name="link" class="btn-alternate-1" href="/book-a-call">Book a Call</a></li>
 							</ul>
 						</div>
 						<div class="hamb">
