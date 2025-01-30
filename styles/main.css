@@ -110,6 +110,9 @@ a:hover {
     padding: 0 32px;
   }
 }
+@view-transition {
+  navigation: auto;
+}
 /* Grid */
 .grid-row {
   display: grid;
