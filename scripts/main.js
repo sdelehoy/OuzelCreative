@@ -193,9 +193,10 @@ class Footer extends HTMLElement {
 							<div>
 								<a href="https://www.marketingmadesimple.com/Katy-Delehoy" target="_blank" rel="external nofollow">
 									<img
-										width="125px"
-										src="/images/StoryBrand_Guide_Badge_White.png"
-										alt="StoryBrand Guide badge"
+										width="104px"
+										src="/images/StoryBrand_Badge_2025_White.svg"
+										alt="StoryBrand Certified Coach badge"
+										title="StoryBrand Certified Coach"
 										loading="lazy"
 									/>
 								</a>
@@ -203,9 +204,10 @@ class Footer extends HTMLElement {
 							<div>
 								<a href="https://www.greenbiztracker.org/business/ouzel-creative-loveland" target="_blank" rel="external nofollow">
 									<img
-										width="108px"
+										width="104px"
 										src="/images/CGBN_Silver_Level_Stamp.png"
 										alt="Colorado Green Business Network certified silver member badge"
+										title="Colorado Green Business Network Certified Silver"
 										loading="lazy"
 									/>
 								</a>
@@ -218,6 +220,7 @@ class Footer extends HTMLElement {
 										src="https://seal-wynco.bbb.org/seals/gray-seal-96-50-bbb-46144719.png"
 										style="border: 0;"
 										alt="Ouzel Creative, LLC BBB Business Review"
+										title="Better Business Bureau Accredited"
 										loading="lazy"
 									/>
 								</a>
@@ -227,7 +230,8 @@ class Footer extends HTMLElement {
               		<img 
 										name="link"
 										src="/images/Loveland-Chamber-Proud-member-Logo-Gray.png"
-										alt="Loveland Chamber of Commerce logo"
+										alt="Loveland Chamber of Commerce Member badge"
+										title="Loveland Chamber of Commerce Member"
 										loading="lazy"
 									/>
             		</a>
@@ -237,7 +241,8 @@ class Footer extends HTMLElement {
               		<img 
 										name="link"
 										src="/images/lcd-H-logo-tagline-gray.png" 
-										alt="Loveland Creative District logo"
+										alt="Loveland Creative District Member badge"
+										title="Loveland Creative District Member"
 										loading="lazy"
 									/>
             		</a>
