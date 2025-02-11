@@ -202,6 +202,17 @@ class Footer extends HTMLElement {
 								</a>
 							</div>
 							<div>
+								<a href="https://www.marketingmadesimple.com/Katy-Delehoy" target="_blank" rel="external nofollow">
+									<img
+										width="104px"
+										src="/images/StoryBrand_Guide_Badge_White.png"
+										alt="StoryBrand Certified Coach badge"
+										title="StoryBrand Certified Coach"
+										loading="lazy"
+									/>
+								</a>
+							</div>
+							<div>
 								<a href="https://www.greenbiztracker.org/business/ouzel-creative-loveland" target="_blank" rel="external nofollow">
 									<img
 										width="104px"
