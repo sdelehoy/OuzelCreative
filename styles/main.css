@@ -447,9 +447,16 @@ a:hover {
 }
 .btn-container {
   display: grid;
-  grid-template-columns: 208px 208px;
   gap: 20px;
+  grid-template-columns: 208px;
+  justify-content: center;
   margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .btn-container {
+    grid-template-columns: repeat(auto-fit, 208px);
+    justify-content: start;
+  }
 }
 .btn-container-center {
   justify-content: center;
@@ -462,6 +469,7 @@ a:hover {
   font-family: var(--c2);
   font-size: 1rem;
   font-weight: 600;
+  max-width: 208px;
   min-inline-size: fit-content;
   padding: 10px 16px;
   text-align: center;
