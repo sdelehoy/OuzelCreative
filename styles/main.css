@@ -458,6 +458,9 @@ a:hover {
     justify-content: start;
   }
 }
+.button-container:has(:only-child) {
+  display: block;
+}
 .btn-container-center {
   justify-content: center;
 }
