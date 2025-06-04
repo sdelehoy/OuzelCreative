@@ -268,7 +268,7 @@ class Footer extends HTMLElement {
           	</div>
 						<div>&vert;</div>
 						<div>
-							<p>Images of Katy &amp; Shawn by <a target="_blank" href="https://www.danamartincreative.com" name="link" rel="external nofollow">Dana Martin Creative</a></p>
+							<p>Images of Katy &amp; Shawn by <a target="_blank" href="https://www.danamartincreative.com" rel="external nofollow">Dana Martin Creative</a></p>
 						</div>
           	<div>&vert;</div>
           	<div><a class="copyright-link" name="link" href="/privacy-policy" rel="privacy-policy">Privacy Policy</a></div>
