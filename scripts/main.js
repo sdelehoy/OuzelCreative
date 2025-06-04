@@ -175,7 +175,6 @@ class Footer extends HTMLElement {
               	rel="external nofollow"
               >
 								<img
-                	name="link"
 									src="/images/Green_15.png"
                 	border="0"
                 	alt="Eco-friendly website badge"
@@ -238,8 +237,7 @@ class Footer extends HTMLElement {
           		</div>
           		<div>
             		<a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008" target="_blank" rel="external nofollow">
-              		<img 
-										name="link"
+              		<img
 										src="/images/Loveland-Chamber-Proud-member-Logo-Gray.png"
 										alt="Loveland Chamber of Commerce Member badge"
 										title="Loveland Chamber of Commerce Member"
@@ -249,8 +247,7 @@ class Footer extends HTMLElement {
           		</div>
           		<div>
             		<a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank" rel="external nofollow">
-              		<img 
-										name="link"
+              		<img
 										src="/images/lcd-H-logo-tagline-gray.png" 
 										alt="Loveland Creative District Member badge"
 										title="Loveland Creative District Member"

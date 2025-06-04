@@ -218,7 +218,6 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
             rel="nofollow"
           >
             <img
-              name="link"
               src="/images/Green_15.png"
               border="0"
               alt="Eco-friendly website badge"
@@ -243,7 +242,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
         </div>
         <div class="grid-width-1">
           <a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="nofollow">
-            <img 
+            <img
               src="https://seal-wynco.bbb.org/seals/gray-seal-96-50-bbb-46144719.png"
               style="border: 0;"
               alt="Ouzel Creative, LLC BBB Business Review"
@@ -253,8 +252,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
         </div>
         <div class="grid-width-1">
           <a href="https://business.loveland.org/list/member/ouzel-creative-llc-14008" target="_blank" rel="nofollow">
-            <img 
-              name="link"
+            <img
               src="/images/Loveland-Chamber-Proud-member-Logo-Gray.png"
               alt="Loveland Chamber of Commerce logo"
               loading="lazy"
@@ -263,8 +261,7 @@ class Header extends HTMLElement{constructor(){super()}connectedCallback(){this.
         </div>
         <div class="grid-width-1">
           <a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank" rel="nofollow">
-            <img 
-              name="link"
+            <img
               src="/images/lcd-H-logo-tagline-gray.png" 
               alt="Loveland Creative District logo"
               loading="lazy"
