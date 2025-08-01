@@ -215,7 +215,7 @@ class Footer extends HTMLElement {
 								<a href="https://www.greenbiztracker.org/business/ouzel-creative-loveland" target="_blank" rel="external nofollow">
 									<img
 										width="104px"
-										src="/images/CGBN_Silver_Level_Stamp.png"
+										src="/images/CGBN_Gold_Level_Stamp.png"
 										alt="Colorado Green Business Network certified silver member badge"
 										title="Colorado Green Business Network Certified Silver"
 										loading="lazy"
