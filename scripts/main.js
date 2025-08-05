@@ -273,6 +273,7 @@ class Footer extends HTMLElement {
           	<div><a class="copyright-link" name="link" href="/terms-of-service" rel="terms-of-service">Terms of Service</a></div>
         	</div>
       	</div>
+				<script src="https://linkrail.app/projects.js" code="01987ab7-2ceb-71a1-b93e-6d8bd53d33ab" id="linkrail_projects"></script>
     	</footer>
 		`;
 	}
