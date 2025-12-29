@@ -73,7 +73,8 @@ h2 {
   margin-bottom: 24px;
 }
 @media (min-width: 768px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 2.5rem;
   }
 }
@@ -424,12 +425,18 @@ a:hover {
 }
 .ouzel {
   animation: bounce 3.5s infinite;
-  animation-timing-function: cubic-bezier(0.83, 0.08, 0.18, 0.84 );
+  animation-timing-function: cubic-bezier(0.83, 0.08, 0.18, 0.84);
 }
 @keyframes bounce {
-	40% {transform: translateY(0);}
-	44% {transform: translateY(11px);}
-  48% {transform: translateY(0);}
+  40% {
+    transform: translateY(0);
+  }
+  44% {
+    transform: translateY(11px);
+  }
+  48% {
+    transform: translateY(0);
+  }
 }
 /*-- MAIN CONTENT --*/
 .main {
@@ -553,25 +560,37 @@ a:hover {
   }
 }
 .benefits {
-  background-image: 
-  linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
-  url(../images/happy_business_owner_800w.webp);
+  background-image:
+    linear-gradient(
+      to bottom,
+      hsl(192 100% 12% / 75%),
+      hsl(192 100% 12% / 75%)
+    ),
+    url(../images/happy_business_owner_800w.webp);
   background-position: 50% 15%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (min-width: 768px) {
   .benefits {
-    background-image: 
-    linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
-    url(../images/happy_business_owner_1000w.webp);
+    background-image:
+      linear-gradient(
+        to bottom,
+        hsl(192 100% 12% / 75%),
+        hsl(192 100% 12% / 75%)
+      ),
+      url(../images/happy_business_owner_1000w.webp);
   }
 }
 @media (min-width: 992px) {
   .benefits {
-    background-image: 
-    linear-gradient(to bottom, hsl(192 100% 12% / 75%), hsl(192 100% 12% / 75%)),
-    url(../images/happy_business_owner_2560w.webp);
+    background-image:
+      linear-gradient(
+        to bottom,
+        hsl(192 100% 12% / 75%),
+        hsl(192 100% 12% / 75%)
+      ),
+      url(../images/happy_business_owner_2560w.webp);
   }
 }
 .benefit {
@@ -945,6 +964,9 @@ form textarea {
   width: 100%;
 }
 /*-- POSTS PAGE --*/
+.posts-grid {
+  align-content: stretch;
+}
 .posts-link {
   text-decoration: none;
 }
@@ -994,7 +1016,7 @@ p:has(+ .post-section-heading) {
   margin-top: 64px;
 }
 .italic {
- font-style: italic; 
+  font-style: italic;
 }
 .callout {
   color: var(--c8);
