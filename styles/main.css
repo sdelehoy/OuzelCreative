@@ -65,7 +65,7 @@ h6 {
   font-family: var(--f3);
   font-weight: 500;
   line-height: 120%;
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 h1,
 h2 {
@@ -964,9 +964,6 @@ form textarea {
   width: 100%;
 }
 /*-- POSTS PAGE --*/
-.posts-grid {
-  align-content: stretch;
-}
 .posts-link {
   text-decoration: none;
 }
@@ -974,6 +971,7 @@ form textarea {
   background-color: var(--c6);
   border-radius: 24px;
   color: var(--c4);
+  height: 100%;
   padding: 24px;
   transition: all 0.3s;
 }
@@ -988,6 +986,9 @@ form textarea {
 .post-subtitle {
   font-weight: 100;
   font-size: 1.3rem;
+  line-height: 150%;
+  margin-top: 16px;
+  text-wrap: pretty;
 }
 h1:has(+ h2) {
   margin-bottom: 8px;
@@ -1003,14 +1004,29 @@ h1:has(+ h2) {
 .post-section-heading {
   font-size: 1.7rem;
 }
+.post-subheading-3 {
+  font-size: 1.5rem;
+}
+.post-subheading-4 {
+  font-size: 1.3rem;
+}
+.post-subheading-3,
+.post-subheading-4 {
+  margin-bottom: 16px;
+}
 .bold {
   font-weight: bold;
 }
 .indent {
   margin-left: 2ch;
 }
-p:has(+ .post-section-heading) {
+p:has(+ .post-section-heading),
+ul:has(+ .post-section-heading) {
   margin-bottom: 64px;
+}
+p:has(+ .post-subheading-3, + .post-subheading-4),
+ul:has(+ .post-subheading-3, + .post-subheading-4) {
+  margin-bottom: 32px;
 }
 .continue-reading {
   margin-top: 64px;
