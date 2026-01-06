@@ -963,19 +963,40 @@ form textarea {
   object-fit: cover;
   width: 100%;
 }
+.event-card {
+  border-radius: 24px;
+  box-shadow: 0 8px 32px hsl(from black h s l / 0.5);
+  overflow: hidden;
+}
 .event-card-content {
   background-color: var(--c6);
-  border-radius: 24px 24px 0 0;
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 32px;
+  text-align: center;
 }
-.event-card-content address {
+.event-card-address {
   font-style: normal;
+}
+.event-card-date {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.event-card-location {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.event-card-price {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.event-card-strike {
+  color: hsl(from var(--c4) h s l / 0.6);
 }
 .event-card-image img {
   aspect-ratio: 1.618 / 1;
+  display: block;
   object-fit: cover;
   width: 100%;
 }
