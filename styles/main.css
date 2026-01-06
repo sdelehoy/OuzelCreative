@@ -972,8 +972,12 @@ form textarea {
   padding: 32px;
 }
 .event-card-content address {
-  font-size: 1.15rem;
   font-style: normal;
+}
+.event-card-image img {
+  aspect-ratio: 1.618 / 1;
+  object-fit: cover;
+  width: 100%;
 }
 /*-- POSTS PAGE --*/
 .posts-link {
