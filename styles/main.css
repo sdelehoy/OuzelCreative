@@ -1037,11 +1037,20 @@ form textarea {
   border-radius: 24px;
   font-size: 1.2rem;
   line-height: 1.4;
-  padding: 32px;
+  padding: 32px 32px 32px 72px;
 }
 .event-testimonial blockquote {
   font-style: normal;
   margin: 0;
+  position: relative;
+}
+.event-testimonial blockquote::before {
+  content: "\275D";
+  font-size: 5rem;
+  left: -56px;
+  opacity: 0.1;
+  position: absolute;
+  top: -48px;
 }
 .event-testimonial-name {
   font-size: 0.9rem;
