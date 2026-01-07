@@ -1010,11 +1010,20 @@ form textarea {
   object-fit: cover;
   width: 100%;
 }
+/*.event-list {
+  list-style-type: none;
+}*/
 .event-list li:has(+ li) {
   margin-bottom: 16px;
 }
 .event-list li:not(:has(+ li)) {
   margin-bottom: 0;
+}
+.event-list-green-check {
+  list-style-type: "\2705";
+}
+.event-list-sparkles {
+  list-style-type: "\2728";
 }
 /*-- POSTS PAGE --*/
 .posts-link {
