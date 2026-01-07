@@ -143,7 +143,7 @@
                 <h2 class="post-section-heading">
                   Here's what others are saying:
                 </h2>
-                <div>
+                <div class="event-testimonial">
                   <blockquote class="italic">
                     I was having a problem with getting clarity between my B2B
                     and B2C offers. I was feeling disjointed and confused, but
@@ -154,7 +154,7 @@
                   </blockquote>
                   <div>— Monique E.</div>
                 </div>
-                <div>
+                <div class="event-testimonial">
                   <blockquote class="italic">
                     I spent a day in one of Katy's Messaging &amp; Messaging
                     workshops and it was a day very well spent! She walks you
@@ -165,7 +165,7 @@
                   </blockquote>
                   <div>— Jessica D.</div>
                 </div>
-                <div>
+                <div class="event-testimonial">
                   <blockquote class="italic">
                     This was such a fun and enlightening day, full of creativity
                     and brainstorming business challenges/solutions. Thank you
@@ -174,62 +174,63 @@
                   <div>— Mindy M.</div>
                 </div>
               </section>
-              <section id="register" class="main-section event-register">
-                <div></div>
-                <script
-                  type="text/javascript"
-                  src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.10/iframeResizer.min.js"
-                ></script>
-                <div style="width: 100%; min-height: 500px">
-                  <iframe
-                    id="moxie-messaging-marketing-workshop"
-                    allowtransparency="true"
-                    style="
-                      padding: 0px;
-                      margin: 0px;
-                      border: 0;
-                      max-width: 100%;
-                      min-width: 100%;
-                    "
-                  ></iframe>
-                </div>
-                <script type="text/javascript">
-                  let moxieFrame = document.getElementById(
-                    "moxie-messaging-marketing-workshop",
-                  );
-                  moxieFrame.src =
-                    "https://hello.withmoxie.com/01/ouzel-creative1/messaging-marketing-workshop?inFrame=true&sourceUrl=" +
-                    encodeURIComponent(window.location.href);
-                  setTimeout(
-                    () =>
-                      iFrameResize(
-                        {
-                          heightCalculationMethod: "min",
-                          sizeWidth: true,
-                          sizeHeight: true,
-                          log: false,
-                          checkOrigin: false,
-                        },
-                        "#moxie-messaging-marketing-workshop",
-                      ),
-                    100,
-                  );
+              <section id="register" class="main-section">
+                <div class="event-register">
+                  <script
+                    type="text/javascript"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.10/iframeResizer.min.js"
+                  ></script>
+                  <div style="width: 100%; min-height: 500px">
+                    <iframe
+                      id="moxie-messaging-marketing-workshop"
+                      allowtransparency="true"
+                      style="
+                        padding: 0px;
+                        margin: 0px;
+                        border: 0;
+                        max-width: 100%;
+                        min-width: 100%;
+                      "
+                    ></iframe>
+                  </div>
+                  <script type="text/javascript">
+                    let moxieFrame = document.getElementById(
+                      "moxie-messaging-marketing-workshop",
+                    );
+                    moxieFrame.src =
+                      "https://hello.withmoxie.com/01/ouzel-creative1/messaging-marketing-workshop?inFrame=true&sourceUrl=" +
+                      encodeURIComponent(window.location.href);
+                    setTimeout(
+                      () =>
+                        iFrameResize(
+                          {
+                            heightCalculationMethod: "min",
+                            sizeWidth: true,
+                            sizeHeight: true,
+                            log: false,
+                            checkOrigin: false,
+                          },
+                          "#moxie-messaging-marketing-workshop",
+                        ),
+                      100,
+                    );
 
-                  window.addEventListener(
-                    "message",
-                    (event) => {
-                      if (
-                        event.origin === "https://hello.withmoxie.com" &&
-                        event.data &&
-                        event.data.startsWith("[Redirect]")
-                      ) {
-                        let url = event.data.slice(10);
-                        window.location = url;
-                      }
-                    },
-                    false,
-                  );
-                </script>
+                    window.addEventListener(
+                      "message",
+                      (event) => {
+                        if (
+                          event.origin === "https://hello.withmoxie.com" &&
+                          event.data &&
+                          event.data.startsWith("[Redirect]")
+                        ) {
+                          let url = event.data.slice(10);
+                          window.location = url;
+                        }
+                      },
+                      false,
+                    );
+                  </script>
+                </div>
               </section>
             </div>
           </div>
