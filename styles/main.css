@@ -1025,10 +1025,30 @@ form textarea {
 .event-list-sparkles {
   list-style-type: "\2728";
 }
+.event-testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 .event-testimonial {
-  background-color: hsl(from var(--c6) h s l / 0.75);
+  background-color: hsl(from var(--c6) h s l / 0.5);
+  border-top: 1px solid hsl(from var(--c8) h s l / 0.25);
+  box-shadow: 0 8px 32px hsl(from black h s l / 0.25);
   border-radius: 24px;
-  padding: 24px;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  padding: 32px;
+}
+.event-testimonial blockquote {
+  font-style: normal;
+  margin: 0;
+}
+.event-testimonial-name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 24px;
+  opacity: 0.6;
+  text-transform: uppercase;
 }
 .event-register {
   border-radius: 24px;
