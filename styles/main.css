@@ -1025,6 +1025,16 @@ form textarea {
 .event-list-sparkles {
   list-style-type: "\2728";
 }
+.event-facilatator-content {
+  display: flex;
+  gap: 32px;
+}
+.event-facilitator-img {
+  border-radius: 24px;
+  border-top: 1px solid hsl(from var(--c4) h s l / 0.25);
+  max-width: 200px;
+  object-fit: cover;
+}
 .event-testimonials {
   display: flex;
   flex-direction: column;
