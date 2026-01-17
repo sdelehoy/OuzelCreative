@@ -1027,6 +1027,7 @@ form textarea {
 }
 .event-facilatator-content {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 32px;
 }
@@ -1035,13 +1036,20 @@ form textarea {
   border-radius: 24px;
   border-top: 1px solid hsl(from var(--c4) h s l / 0.25);
   box-shadow: 0 8px 32px hsl(from black h s l / 0.25);
-  /*max-width: 200px;*/
-  max-width: 35%;
+  max-width: 80%;
   object-fit: cover;
 }
+@media (min-width: 576px) {
+  .event-facilatator-content {
+    flex-direction: row;
+    align-items: center;
+  }
+  .event-facilitator-img {
+    max-width: 30%;
+  }
+}
 .event-facilitator-text {
-  /*max-width: 429px;*/
-  max-width: 55%;
+  width: 63%;
 }
 .event-testimonials {
   display: flex;
