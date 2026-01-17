@@ -1039,9 +1039,7 @@ form textarea {
   object-fit: cover;
 }
 .event-facilitator-text {
-  min-width: 0;
-  max-width: 400px;
-  overflow: hidden;
+  max-width: 429px;
 }
 .event-testimonials {
   display: flex;
