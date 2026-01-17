@@ -1027,11 +1027,15 @@ form textarea {
 }
 .event-facilatator-content {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 }
 .event-facilitator-img {
+  aspect-ratio: 2 / 3;
   border-radius: 24px;
   border-top: 1px solid hsl(from var(--c4) h s l / 0.25);
+  box-shadow: 0 8px 32px hsl(from black h s l / 0.25);
+  display: block;
   max-width: 200px;
   object-fit: cover;
 }
@@ -1047,7 +1051,7 @@ form textarea {
   border-radius: 24px;
   font-size: 1.2rem;
   line-height: 1.4;
-  padding: 32px 32px 32px 72px;
+  padding: 40px 40px 40px 72px;
 }
 .event-testimonial blockquote {
   font-style: normal;
