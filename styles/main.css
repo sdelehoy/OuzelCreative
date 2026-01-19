@@ -541,6 +541,7 @@ a:hover {
   color: hsl(192, 100%, 44%);
 }
 .banner1-services {
+  font-size: 1rem;
   font-weight: 300;
   letter-spacing: 0.1rem;
   margin-bottom: 16px;
