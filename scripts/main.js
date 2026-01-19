@@ -4,11 +4,11 @@
 
 // Header
 class Header extends HTMLElement {
-	constructor() {
-		super();
-	}
-	connectedCallback() {
-		this.innerHTML = `
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
 			<header>
 				<nav class="navbar">
 					<div class="nav-flex container">
@@ -41,18 +41,18 @@ class Header extends HTMLElement {
 				</nav>
 			</header>
 		`;
-	}
+  }
 }
 
 // Footer
-customElements.define('header-component', Header);
+customElements.define("header-component", Header);
 
 class Footer extends HTMLElement {
-	constructor() {
-		super();
-	}
-	connectedCallback() {
-		this.innerHTML = `
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
     	<footer class="footer">
       	<div class="container">
         	<div class="footer-grid">
@@ -136,10 +136,11 @@ class Footer extends HTMLElement {
 							<div class="footer-links">
 								<a name="link" href="/">Home</a>
 								<a name="link" href="/#work">Work</a>
+								<a name="link" href="/#about">About</a>
 								<a name="link" href="/contact">Contact</a>
 							</div>
 							<div class="footer-links">
-								<a name="link" href="/#about">About</a>
+							  <a name="link" href="/workshops">Workshops</a>
 								<a name="link" href="/posts">Posts</a>
 								<a name="link" href="/sustainability">Sustainability</a>
 							</div>
@@ -226,7 +227,7 @@ class Footer extends HTMLElement {
 						<div class="flex">
 							<div>
             		<a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="external nofollow">
-									<img 
+									<img
 										src="https://seal-wynco.bbb.org/seals/gray-seal-96-50-bbb-46144719.png"
 										style="border: 0;"
 										alt="Ouzel Creative, LLC BBB Business Review"
@@ -248,7 +249,7 @@ class Footer extends HTMLElement {
           		<div>
             		<a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank" rel="external nofollow">
               		<img
-										src="/images/lcd-H-logo-tagline-gray.png" 
+										src="/images/lcd-H-logo-tagline-gray.png"
 										alt="Loveland Creative District Member badge"
 										title="Loveland Creative District Member"
 										loading="lazy"
@@ -275,22 +276,22 @@ class Footer extends HTMLElement {
       	</div>
     	</footer>
 		`;
-	}
+  }
 }
 
-customElements.define('footer-component', Footer);
+customElements.define("footer-component", Footer);
 
 // Check links and update them if in subfolder
 function switchHref() {
-  if (location.pathname.split('/').length - 1 > 1) {
-    let links = Array.prototype.slice.call(document.getElementsByName('link'));
-    links.forEach(function(link) {
-      let href = link.getAttribute('href');
-      link.setAttribute('href', '..' + href);
-    });    
-  };
-};
-switchHref(); 
+  if (location.pathname.split("/").length - 1 > 1) {
+    let links = Array.prototype.slice.call(document.getElementsByName("link"));
+    links.forEach(function (link) {
+      let href = link.getAttribute("href");
+      link.setAttribute("href", ".." + href);
+    });
+  }
+}
+switchHref();
 
 // NAVIGATION
 const hamb = document.querySelector(".hamb");
@@ -299,17 +300,17 @@ const navMenu = document.querySelector(".main-nav");
 hamb.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-	hamb.classList.toggle("active");
-	navMenu.classList.toggle("active");
+  hamb.classList.toggle("active");
+  navMenu.classList.toggle("active");
 }
 
 const navLink = document.querySelectorAll(".nav-link");
 
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
 function closeMenu() {
-	hamb.classList.remove("active");
-	navMenu.classList.remove("active");
+  hamb.classList.remove("active");
+  navMenu.classList.remove("active");
 }
 
 // UPDATE COPYRIGHT
