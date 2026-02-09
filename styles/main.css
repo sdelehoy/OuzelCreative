@@ -1094,12 +1094,16 @@ form textarea {
   border-radius: 24px;
   color: var(--c4);
   height: 100%;
-  padding: 24px;
+  padding: 32px;
   transition: all 0.3s;
 }
 .posts-card:hover {
   background-color: var(--c8);
   color: var(--c1);
+}
+.posts-title {
+  font-size: 1.5rem;
+  line-height: 1.4;
 }
 .posts-date {
   font-size: 0.9rem;
