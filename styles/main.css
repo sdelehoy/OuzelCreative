@@ -1178,10 +1178,13 @@ ul:has(+ .post-subheading-3, + .post-subheading-4) {
   padding: 0 32px;
 }
 .list {
-  line-height: 160%;
+  line-height: 200%;
   margin-bottom: 24px;
   margin-top: 19px;
   padding: 0 0 0 32px;
+}
+.list ul {
+  padding-left: 32px;
 }
 .flow > * + * {
   margin-top: 24px;
