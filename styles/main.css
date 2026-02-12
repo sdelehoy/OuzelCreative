@@ -757,6 +757,15 @@ a:hover {
   width: 100%;
   aspect-ratio: 3 / 2;
 }
+.slide-caption-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 16px;
+}
+.slide-caption-link {
+  color: hsl(from var(--c1) h s l / 0.7);
+  font-weight: 500;
+}
 .slides-prev,
 .slides-next {
   align-items: center;
