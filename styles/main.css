@@ -311,11 +311,13 @@ a:hover {
   font-size: 1.75rem;
   font-weight: 500;
   justify-content: center;
+  text-shadow: hsl(from var(--c4) h s l / 1) 0px 0px 24px;
 }
 .hero-subtitle {
   font-family: var(--f2);
   font-size: 1rem;
   font-weight: 400;
+  text-shadow: hsl(from var(--c4) h s l / 1) 0px 0px 16px;
 }
 @media (min-width: 480px) {
   .hero-headline-wrapper {
@@ -475,7 +477,7 @@ a:hover {
 .button {
   border: solid 4px var(--c5);
   border-radius: 48px;
-  box-shadow: hsla(192 100% 6% / 0.4) 0px 2px 1px;
+  box-shadow: hsl(from var(--c1) h l 4% / 0.6) 0px 2px 12px -4px;
   display: inline-block;
   font-family: var(--c2);
   font-size: 1rem;
@@ -550,6 +552,8 @@ a:hover {
   word-spacing: 0.2rem;
 }
 .banner1-img {
+  box-shadow: hsl(from var(--c1) h s 4% / 1) 0px 8px 32px -8px;
+  border-radius: 100vw;
   display: block;
   margin-top: 32px;
   max-width: 480px;
@@ -619,7 +623,7 @@ a:hover {
 }
 .stakes-card {
   border-radius: 25px;
-  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
+  box-shadow: hsl(from var(--c1) h s 8% / 1) 0px 8px 32px -8px;
   color: var(--c1);
   gap: 0;
   margin-bottom: 32px;
@@ -664,7 +668,7 @@ a:hover {
 .card {
   background-color: hsl(195 25% 94%);
   border-radius: 26px 26px 25px 25px;
-  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
+  box-shadow: hsl(from var(--c1) h s 8% / 1) 0px 8px 32px -8px;
   color: var(--c1);
 }
 .card-text {
@@ -754,6 +758,7 @@ a:hover {
 }
 .slides-img {
   border-radius: 25px;
+  box-shadow: 0 8px 32px -8px hsl(from var(--c2) h s l / 0.2);
   width: 100%;
   aspect-ratio: 3 / 2;
 }
