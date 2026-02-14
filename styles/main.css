@@ -822,7 +822,7 @@ a:hover {
 .about-ouzel {
   background-color: hsl(195 25% 94%);
   border-radius: 24px;
-  box-shadow: hsl(192 100% 12% / 50%) 0px 10px 0px;
+  box-shadow: hsl(from var(--c1) h s 8% / 1) 0px 8px 32px -8px;
   color: var(--c2);
   font-size: 1rem;
   margin-top: 24px;
