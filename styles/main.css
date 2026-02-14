@@ -813,6 +813,7 @@ a:hover {
 /*-- About Section --*/
 .about-img {
   border-radius: 50%;
+  box-shadow: hsl(from var(--c1) h s 8% / 0.75) 0px 8px 32px -8px;
   display: block;
   margin: 20px auto;
   max-width: 275px;
