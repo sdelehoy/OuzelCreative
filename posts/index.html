@@ -30,8 +30,8 @@
       <section class="main-section">
         <div class="container">
           <h1 class="main-section-heading">Posts</h1>
-          <div class="grid-row">
-            <div class="grid-width-3">
+          <div class="grid-row" id="data-container">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/the-ultimate-post-event-guide-to-turning-connections-into-opportunities"
@@ -45,7 +45,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a class="posts-link" href="/posts/how-to-be-unforgettable">
                 <article class="posts-card">
                   <h2 class="posts-title">
@@ -55,7 +55,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/how-to-make-connections-that-last"
@@ -68,7 +68,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/how-to-break-the-ice-at-any-event"
@@ -81,7 +81,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/how-to-set-a-goal-before-a-networking-event"
@@ -95,7 +95,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/why-researching-before-networking-will-change-your-game"
@@ -108,7 +108,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/how-to-craft-an-elevator-pitch-that-actually-works"
@@ -121,7 +121,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/top-3-reasons-to-bring-business-cards-to-networking-events"
@@ -134,7 +134,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/our-digital-world-affects-our-physical-world-part-4"
@@ -150,7 +150,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/our-digital-world-affects-our-physical-world-part-3"
@@ -166,7 +166,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/our-digital-world-affects-our-physical-world-part-2"
@@ -182,7 +182,7 @@
                 </article>
               </a>
             </div>
-            <div class="grid-width-3">
+            <div class="grid-width-3 posts-card-wrapper">
               <a
                 class="posts-link"
                 href="/posts/our-digital-world-affects-our-physical-world-part-1"
@@ -199,6 +199,14 @@
               </a>
             </div>
           </div>
+          <div class="pagination" id="pagination">
+            <a href="#" id="prev">Previous</a>
+            <a href="#" class="page-link" data-page="1">1</a>
+            <a href="#" class="page-link" data-page="2">2</a>
+            <a href="#" class="page-link" data-page="3">3</a>
+            <a href="#" id="next">Next</a>
+            <p id="page-numbers"></p>
+          </div>
         </div>
       </section>
     </main>
@@ -206,6 +214,7 @@
     <footer-component></footer-component>
     <!-- SCRIPTS -->
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/pagination.js"></script>
     <script
       defer
       src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=02e60b66-cd1a-11ee-90ec-d38f7e8a9e22"
