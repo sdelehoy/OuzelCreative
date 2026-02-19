@@ -30,20 +30,30 @@ function displayPage(page) {
 // Function to update pagination buttons and page numbers
 function updatePagination() {
   pageNumbers.textContent = `Page ${currentPage} of ${totalPages}`;
-  prevButton.disabled = currentPage === 1;
-  nextButton.disabled = currentPage === totalPages;
-  pageLinks.forEach((link) => {
-    const page = parseInt(link.getAttribute("data-page"));
-    link.classList.toggle("active", page === currentPage);
-  });
+  if ((prevButton.disabled = currentPage === 1)) {
+    prevButton.style.visibility = "hidden";
+  } else {
+    prevButton.style.visibility = "visible";
+  }
+  if ((nextButton.disabled = currentPage === totalPages)) {
+    nextButton.style.visibility = "hidden";
+  } else {
+    nextButton.style.visibility = "visible";
+  }
+  // pageLinks.forEach((link) => {
+  //   const page = parseInt(link.getAttribute("data-page"));
+  //   link.classList.toggle("active", page === currentPage);
+  // });
 }
 
 // Event listener for "Previous" button
 prevButton.addEventListener("click", () => {
   if (currentPage > 1) {
     currentPage--;
-    displayPage(currentPage);
-    updatePagination();
+    document.startViewTransition(() => {
+      displayPage(currentPage);
+      updatePagination();
+    });
   }
 });
 
@@ -51,23 +61,25 @@ prevButton.addEventListener("click", () => {
 nextButton.addEventListener("click", () => {
   if (currentPage < totalPages) {
     currentPage++;
-    displayPage(currentPage);
-    updatePagination();
+    document.startViewTransition(() => {
+      displayPage(currentPage);
+      updatePagination();
+    });
   }
 });
 
 // Event listener for page number buttons
-pageLinks.forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    const page = parseInt(link.getAttribute("data-page"));
-    if (page !== currentPage) {
-      currentPage = page;
-      displayPage(currentPage);
-      updatePagination();
-    }
-  });
-});
+// pageLinks.forEach((link) => {
+//   link.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     const page = parseInt(link.getAttribute("data-page"));
+//     if (page !== currentPage) {
+//       currentPage = page;
+//       displayPage(currentPage);
+//       updatePagination();
+//     }
+//   });
+// });
 
 // Initial page load
 displayPage(currentPage);

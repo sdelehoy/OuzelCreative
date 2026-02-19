@@ -1124,28 +1124,65 @@ form textarea {
   font-size: 0.9rem;
 }
 .pagination {
-  text-align: center;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
 }
-
-.pagination a {
-  color: #007bff;
+.pagination a,
+.pagination p {
+  /*border: 1px solid var(--c5);*/
+  /*border-radius: 100vh;*/
+  color: var(--c4);
   padding: 8px 16px;
   text-decoration: none;
-  border: 1px solid #007bff;
-  margin: 0 5px;
-  border-radius: 4px;
+  /*margin: 0 5px;*/
 }
-
 .pagination a:hover {
-  background-color: #007bff;
-  color: white;
+  /*background-color: var(--c5);*/
+  color: var(--c5);
+  /*font-weight: 800;*/
 }
-
-.pagination .active {
-  background-color: #007bff;
-  color: white;
+/*.pagination .active {
+  background-color: var(--c5);
+  color: var(--c1);
+  font-weight: 800;
+}*/
+#data-container {
+  view-transition-name: posts-main-section;
 }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+::view-transition-old(posts-main-section) {
+  animation: 0.3s ease-out both fade-out;
+}
+::view-transition-new(posts-main-section) {
+  animation: 0.3s ease-in both fade-in;
+}
+/*::view-transition-old(posts-cards),
+::view-transition-new(posts-cards) {
+  animation-duration: 2s;
+}*/
 /*-- POST PAGE --*/
 .post-subtitle {
   font-weight: 100;
