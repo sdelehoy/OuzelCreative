@@ -1105,7 +1105,11 @@ form textarea {
   text-decoration: none;
 }
 .posts-card {
-  background-color: var(--c6);
+  background-color: hsl(from var(--c6) h s 20%);
+  border: 1px solid var(--c6);
+  border-bottom: 1px solid hsl(from var(--c1) h s l / 0.15);
+  border-top: 1px solid hsl(from var(--c4) h s l / 0.15);
+  box-shadow: hsl(from var(--c1) h s 8% / 1) 0px 8px 32px -8px;
   border-radius: 24px;
   color: var(--c4);
   height: 100%;
@@ -1113,8 +1117,10 @@ form textarea {
   transition: all 0.3s;
 }
 .posts-card:hover {
-  background-color: var(--c8);
-  color: var(--c1);
+  /*background-color: var(--c8);*/
+  background-color: var(--c6);
+  border: 1px solid var(--c6);
+  color: var(--c4);
 }
 .posts-title {
   font-size: 1.5rem;
@@ -1131,58 +1137,48 @@ form textarea {
 }
 .pagination a,
 .pagination p {
-  /*border: 1px solid var(--c5);*/
-  /*border-radius: 100vh;*/
   color: var(--c4);
   padding: 8px 16px;
   text-decoration: none;
-  /*margin: 0 5px;*/
 }
 .pagination a:hover {
-  /*background-color: var(--c5);*/
   color: var(--c5);
-  /*font-weight: 800;*/
 }
-/*.pagination .active {
-  background-color: var(--c5);
-  color: var(--c1);
-  font-weight: 800;
-}*/
 #data-container {
-  view-transition-name: posts-main-section;
+  view-transition-name: posts-cards;
 }
 @keyframes fade-in {
   0% {
     opacity: 0;
+    scale: 102%;
+    translate: 0 -8px;
   }
-  60% {
+  55% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+    scale: none;
   }
 }
 @keyframes fade-out {
   0% {
     opacity: 1;
   }
-  40% {
+  45% {
     opacity: 0;
   }
   100% {
     opacity: 0;
+    scale: 98%;
   }
 }
-::view-transition-old(posts-main-section) {
-  animation: 0.3s ease-out both fade-out;
+::view-transition-old(posts-cards) {
+  animation: 0.4s ease-out both fade-out;
 }
-::view-transition-new(posts-main-section) {
-  animation: 0.3s ease-in both fade-in;
-}
-/*::view-transition-old(posts-cards),
 ::view-transition-new(posts-cards) {
-  animation-duration: 2s;
-}*/
+  animation: 0.4s ease-in both fade-in;
+}
 /*-- POST PAGE --*/
 .post-subtitle {
   font-weight: 100;
