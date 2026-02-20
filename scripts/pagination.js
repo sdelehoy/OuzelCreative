@@ -40,10 +40,6 @@ function updatePagination() {
   } else {
     nextButton.style.visibility = "visible";
   }
-  // pageLinks.forEach((link) => {
-  //   const page = parseInt(link.getAttribute("data-page"));
-  //   link.classList.toggle("active", page === currentPage);
-  // });
 }
 
 // Event listener for "Previous" button
@@ -67,19 +63,6 @@ nextButton.addEventListener("click", () => {
     });
   }
 });
-
-// Event listener for page number buttons
-// pageLinks.forEach((link) => {
-//   link.addEventListener("click", (e) => {
-//     e.preventDefault();
-//     const page = parseInt(link.getAttribute("data-page"));
-//     if (page !== currentPage) {
-//       currentPage = page;
-//       displayPage(currentPage);
-//       updatePagination();
-//     }
-//   });
-// });
 
 // Initial page load
 displayPage(currentPage);

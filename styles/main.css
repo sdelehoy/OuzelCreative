@@ -1111,16 +1111,16 @@ form textarea {
   border-top: 1px solid hsl(from var(--c4) h s l / 0.15);
   box-shadow: hsl(from var(--c1) h s 8% / 1) 0px 8px 32px -8px;
   border-radius: 24px;
-  color: var(--c4);
+  color: hsl(from var(--c4) h s 90%);
   height: 100%;
   padding: 32px;
   transition: all 0.3s;
 }
 .posts-card:hover {
-  /*background-color: var(--c8);*/
   background-color: var(--c6);
   border: 1px solid var(--c6);
   color: var(--c4);
+  scale: 101%;
 }
 .posts-title {
   font-size: 1.5rem;
