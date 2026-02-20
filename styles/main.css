@@ -1135,14 +1135,26 @@ form textarea {
   align-items: center;
   margin-top: 64px;
 }
-.pagination a,
-.pagination p {
-  color: var(--c4);
-  padding: 8px 16px;
-  text-decoration: none;
-}
-.pagination a:hover {
+.pagination button {
+  background-color: transparent;
+  border: none;
   color: var(--c5);
+  cursor: pointer;
+  font-family: var(--f2);
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 16px;
+  transition: all 250ms ease-in-out;
+}
+.pagination button:hover {
+  color: var(--c5);
+  scale: 103%;
+}
+.pagination #next:hover {
+  translate: 4px 0;
+}
+.pagination #prev:hover {
+  translate: -4px 0;
 }
 #data-container {
   view-transition-name: posts-cards;
