@@ -764,8 +764,10 @@ a:hover {
 }
 .slide-caption-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-block-start: 16px;
+  text-align: center;
 }
 .slide-caption-link {
   color: hsl(from var(--c1) h s l / 0.7);
