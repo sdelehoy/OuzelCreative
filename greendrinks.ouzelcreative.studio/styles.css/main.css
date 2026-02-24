@@ -119,6 +119,10 @@ a {
   text-decoration-color: var(--clr-text);
   text-decoration-thickness: 0.3ex;
   text-underline-offset: 0.3ex;
+  transition: text-decoration 200ms ease-in-out;
+}
+a:hover {
+  text-decoration: none;
 }
 h1,
 h2,
@@ -244,6 +248,11 @@ h3 {
 .social-icon:hover {
   color: var(--clr-bright-green);
 }
-.footer-text {
-  font-size: 0.9rem;
+.footer-text-wrapper {
+  display: flex;
+  gap: 16px;
+  font-size: 0.8rem;
+}
+.footer-text-wrapper a {
+  text-decoration-thickness: 0.1ex;
 }
