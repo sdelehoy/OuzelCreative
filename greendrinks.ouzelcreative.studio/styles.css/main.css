@@ -164,6 +164,10 @@ section {
   margin-inline: auto;
   margin-block: 112px;
 }
+footer {
+  max-width: 65ch;
+  margin-inline: auto;
+}
 blockquote {
   max-width: 50ch;
 }
@@ -239,5 +243,7 @@ h3 {
 }
 .social-icon:hover {
   color: var(--clr-bright-green);
-  filter: drop-shadow(0 0 5px oklch(from var(--clr-bright-green) l c h / 0.75));
+}
+.footer-text {
+  font-size: 0.9rem;
 }

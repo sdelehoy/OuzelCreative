@@ -1,18 +1,27 @@
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="author" content="Ouzel Creative" />
+    <meta
+      name="description"
+      content="Green Drinks Northern Colorado is an informal networking event where environmentally-minded people meet, build sustainability and community!"
+    />
+    <title>Green Drinks NoCo</title>
+    <link rel="canonical" href="https://greendrinks.ouzelcreative.studio" />
     <link rel="stylesheet" href="styles.css/main.css" />
   </head>
   <body>
-    <div class="green-drinks-wrapper">
-      <h1 class="green-drinks">
-        Green<br />
-        Drinks<br />
-        <span class="noco">NoCo</span>
-      </h1>
-    </div>
+    <header>
+      <div class="green-drinks-wrapper">
+        <h1 class="green-drinks">
+          Green<br />
+          Drinks<br />
+          <span class="noco">NoCo</span>
+        </h1>
+      </div>
+    </header>
     <section class="flow text-center">
       <h2>
         Sign Up for <br />
@@ -155,5 +164,14 @@
         has happened.
       </p>
     </section>
+    <footer>
+      <div class="footer-text">
+        Copyright &copy <span id="copyright-year"></span> Ouzel Creative
+      </div>
+    </footer>
+    <script>
+      document.getElementById("copyright-year").innerHTML =
+        new Date().getFullYear();
+    </script>
   </body>
 </html>
