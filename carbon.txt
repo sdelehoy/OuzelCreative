@@ -1,0 +1,14 @@
+version="0.4"
+last_updated=2026-02-25
+
+[org]
+disclosures = [
+    { doc_type='sustainability-page', url='https://www.ouzelcreative.studio/sustainability' },
+]
+
+[upstream]
+services = [
+    { domain='www.greengeeks.com', service_type='hosting-provider' },
+    { domain='www.cloudflare.com', service_type='content-delivery-network' },
+    { domain='ecosend.io', service_type='email-marketing' }
+]
