@@ -972,6 +972,12 @@ form textarea {
 .copyright-link:hover {
   color: var(--c5);
 }
+.video-wrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  max-width: 720px;
+  margin-inline: auto;
+}
 
 /*-- SECONDARY PAGES --*/
 .hero {
