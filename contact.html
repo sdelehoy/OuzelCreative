@@ -1,69 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Ouzel Creative">
-  <meta name="description" content="Contact Ouzel Creative to ask your questions.">
-  <title>Contact Us | Ouzel Creative</title>
-	<link rel="canonical" href="https://www.ouzelcreative.studio/contact" />
-	<meta name="theme-color" content="#00313d" />
-	<link rel="icon" href="/favicon.ico" sizes="48x48">
-	<link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml">
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<link rel="manifest" href="/site.webmanifest" />
-	<link rel="stylesheet" href="/styles/main.css" />
-	<link rel="stylesheet" href="https://use.typekit.net/fth6ndz.css">
-</head>
-<body>
-	<!-- HEADER -->
-	<header-component></header-component>
-	<!-- Hero Image -->
-  <div class="hero">
-    <img class="hero-img" src="/images/hero_img.png" alt="">
-  </div>
-  <!-- MAIN -->
-	<main class="main">
-		<!-- Contact Section -->
-    <section class="main-section" id="contact">
-			<div class="container">
-				<div class="grid-row">
-          <div class="grid-width-1"></div>
-					<div class="grid-width-4">
-            <h1>Contact Us</h1>
-						<p>How can we help? Let us know what what questions you have.</p>
-						<div class="margin-top-48">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ouzel Creative" />
+    <meta
+      name="description"
+      content="Contact Ouzel Creative to ask your questions."
+    />
+    <title>Contact Us | Ouzel Creative</title>
+    <link rel="canonical" href="https://www.ouzelcreative.studio/contact" />
+    <meta name="theme-color" content="#00313d" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" sizes="any" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/fth6ndz.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header-component></header-component>
+    <!-- Hero Image -->
+    <div class="hero">
+      <img class="hero-img" src="/images/hero_img.png" alt="" />
+    </div>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- Contact Section -->
+      <section class="main-section" id="contact">
+        <div class="container">
+          <div class="grid-row">
+            <div class="grid-width-1"></div>
+            <div class="grid-width-4">
+              <h1>Contact Us</h1>
+              <p>How can we help? Let us know what what questions you have.</p>
+              <div class="margin-top-48">
+                <!--- Moxie Form inline widget begin -->
+                <script
+                  type="text/javascript"
+                  src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.10/iframeResizer.min.js"
+                ></script>
+                <div style="width: 100%; min-height: 500px">
+                  <iframe
+                    id="moxie-contact-form"
+                    allowtransparency="true"
+                    style="
+                      padding: 0px;
+                      margin: 0px;
+                      border: 0;
+                      max-width: 100%;
+                      min-width: 100%;
+                    "
+                  ></iframe>
+                </div>
+                <script type="text/javascript">
+                  let moxieFrame =
+                    document.getElementById("moxie-contact-form");
+                  moxieFrame.src =
+                    "https://hello.withmoxie.com/01/ouzel-creative1/contact-form?inFrame=true&sourceUrl=" +
+                    encodeURIComponent(window.location.href);
+                  setTimeout(
+                    () =>
+                      iFrameResize(
+                        {
+                          heightCalculationMethod: "min",
+                          sizeWidth: true,
+                          sizeHeight: true,
+                          log: false,
+                          checkOrigin: false,
+                        },
+                        "#moxie-contact-form",
+                      ),
+                    100,
+                  );
 
-							<!--- Moxie Form inline widget begin -->
-							<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.10/iframeResizer.min.js"></script>
-							<div style="width:100%; min-height:500px">
-								<iframe id="moxie-contact-form" allowtransparency="true" style="padding: 0px; margin: 0px; border: 0; max-width: 100%; min-width: 100%"></iframe>
-							</div>
-							<script type="text/javascript">
-								let moxieFrame = document.getElementById("moxie-contact-form");
-								moxieFrame.src = 'https://hello.withmoxie.com/01/ouzel-creative1/contact-form?inFrame=true&sourceUrl=' + encodeURIComponent(window.location.href)
-								setTimeout(() => iFrameResize({heightCalculationMethod: 'min', sizeWidth: true, sizeHeight: true, log: false, checkOrigin: false}, '#moxie-contact-form'),100);
-
-								window.addEventListener("message", (event) => {
-									if(event.origin === 'https://hello.withmoxie.com' && event.data && event.data.startsWith('[Redirect]')){
-										let url = event.data.slice(10);
-										window.location = url;
-									}
-								}, false);
-							</script>
-							<!--- Moxie Form inline widget end -->
-
-						</div>
-					</div>
-				</div>
-			</div>
-    </section>
-  </main>
-	<!-- FOOTER -->
-	<footer-component></footer-component>
-	<!-- SCRIPTS -->
-	<script src="scripts/main.js"></script>
-  <script defer src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=02e60b66-cd1a-11ee-90ec-d38f7e8a9e22"></script>
-  <script defer src="https://scripts.withcabin.com/hello.js"></script>
-</body>
+                  window.addEventListener(
+                    "message",
+                    (event) => {
+                      if (
+                        event.origin === "https://hello.withmoxie.com" &&
+                        event.data &&
+                        event.data.startsWith("[Redirect]")
+                      ) {
+                        let url = event.data.slice(10);
+                        window.location = url;
+                      }
+                    },
+                    false,
+                  );
+                </script>
+                <!--- Moxie Form inline widget end -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer-component></footer-component>
+    <!-- SCRIPTS -->
+    <script src="scripts/main.js"></script>
+    <script defer src="https://scripts.withcabin.com/hello.js"></script>
+  </body>
 </html>
