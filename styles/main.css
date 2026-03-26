@@ -40,6 +40,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   scroll-behavior: smooth;
+  text-wrap: pretty;
 }
 @media (min-width: 768px) {
   body {
@@ -66,7 +67,7 @@ h6 {
   font-family: var(--f3);
   font-weight: 500;
   line-height: 120%;
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 h1,
 h2 {
