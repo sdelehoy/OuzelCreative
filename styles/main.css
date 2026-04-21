@@ -1374,3 +1374,17 @@ ul:has(+ .post-subheading-3, + .post-subheading-4) {
 .case-study-results-details {
   font-size: 0.9rem;
 }
+.ai-table {
+  border-collapse: collapse;
+  border: 3px solid hsl(from var(--c10) h s l / 0.5);
+  margin-bottom: 48px;
+}
+.ai-table th,
+.ai-table td {
+  text-align: left;
+  padding: 12px 24px;
+  border: 2px solid hsl(from var(--c10) h s l / 0.5);
+}
+.ai-table tr:nth-of-type(odd) {
+  background-color: hsl(from var(--c10) h s l / 0.5);
+}
