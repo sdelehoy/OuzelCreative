@@ -2,20 +2,6 @@
 
 // WEB COMPONENTS
 
-// Head
-class Head extends HTMLElement {
-  constructor() {
-    super();
-  }
-  connectedCallback() {
-    this.innerHTML = `
-      <link rel='preconnect' href='//privacy-proxy.usercentrics.eu'><link rel='preload' href='//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js' as='script'><script type='application/javascript' src='https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js'></script><script id='usercentrics-cmp' src='https://app.usercentrics.eu/browser-ui/latest/loader.js' data-settings-id='MynqBxNojHSyRX' async></script><script>uc.setCustomTranslations('https://termageddon.ams3.cdn.digitaloceanspaces.com/translations/');</script>
-      `;
-  }
-}
-
-customElements.define("head-component", Head);
-
 // Header
 class Header extends HTMLElement {
   constructor() {
@@ -294,7 +280,6 @@ class Footer extends HTMLElement {
           	<div><a class="copyright-link" name="link" href="/terms-of-service" rel="terms-of-service">Terms of Service</a></div>
            <div>&vert;</div>
            <div><a class="copyright-link" name="link" href="/cookie-policy" rel="cookie-policy">Cookie Policy</a></div>
-           <div>&vert;</div>
 						<div>
 							<p>Images of Katy &amp; Shawn by <a target="_blank" href="https://www.danamartincreative.com" rel="external">Dana Martin Creative</a>. Video by <a href="https://storywheelhouse.com">Brett Neal</a></p>
 						</div>
