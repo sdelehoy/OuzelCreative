@@ -275,14 +275,16 @@ class Footer extends HTMLElement {
               	Copyright &copy; <span id="copyright-year"></span> Ouzel Creative. All rights reserved.
             	</p>
           	</div>
-						<div>&vert;</div>
-						<div>
-							<p>Images of Katy &amp; Shawn by <a target="_blank" href="https://www.danamartincreative.com" rel="external">Dana Martin Creative</a>. Video by <a href="https://storywheelhouse.com">Brett Neal</a></p>
-						</div>
           	<div>&vert;</div>
           	<div><a class="copyright-link" name="link" href="/privacy-policy" rel="privacy-policy">Privacy Policy</a></div>
           	<div>&vert;</div>
           	<div><a class="copyright-link" name="link" href="/terms-of-service" rel="terms-of-service">Terms of Service</a></div>
+           <div>&vert;</div>
+           <div><a class="copyright-link" name="link" href="/cookie-policy" rel="cookie-policy">Cookie Policy</a></div>
+           <div>&vert;</div>
+						<div>
+							<p>Images of Katy &amp; Shawn by <a target="_blank" href="https://www.danamartincreative.com" rel="external">Dana Martin Creative</a>. Video by <a href="https://storywheelhouse.com">Brett Neal</a></p>
+						</div>
         	</div>
       	</div>
     	</footer>
