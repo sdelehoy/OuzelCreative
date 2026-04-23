@@ -1,6 +1,20 @@
 // JavaScript Document
 
-// COMPONENTS
+// WEB COMPONENTS
+
+// Head
+class Head extends HTMLElement {
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    this.innerHTML = `
+      <link rel='preconnect' href='//privacy-proxy.usercentrics.eu'><link rel='preload' href='//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js' as='script'><script type='application/javascript' src='https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js'></script><script id='usercentrics-cmp' src='https://app.usercentrics.eu/browser-ui/latest/loader.js' data-settings-id='MynqBxNojHSyRX' async></script><script>uc.setCustomTranslations('https://termageddon.ams3.cdn.digitaloceanspaces.com/translations/');</script>
+      `;
+  }
+}
+
+customElements.define("head-component", Head);
 
 // Header
 class Header extends HTMLElement {
@@ -43,10 +57,9 @@ class Header extends HTMLElement {
 		`;
   }
 }
-
-// Footer
 customElements.define("header-component", Header);
 
+// Footer
 class Footer extends HTMLElement {
   constructor() {
     super();
