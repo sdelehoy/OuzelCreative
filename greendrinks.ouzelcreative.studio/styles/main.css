@@ -118,7 +118,7 @@ body {
       transparent
     ),
     radial-gradient(
-      ellipse 100vw 875px at 50% -200px,
+      ellipse 100vw 1000px at 50% -200px,
       oklch(from var(--clr-bg-body) 21% c h) 92%,
       transparent 92%
     ),
@@ -182,7 +182,7 @@ blockquote {
 section {
   max-width: 65ch;
   margin-inline: auto;
-  margin-block: 112px;
+  padding-block: clamp(4rem, 2.7727rem + 5.4545vw, 7rem);
 }
 footer {
   max-width: 65ch;
@@ -324,6 +324,7 @@ a:has(.article-title) {
   font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 1rem;
+  text-transform: uppercase;
   text-align: center;
   border-radius: 100vw;
   transition: all 150ms ease-in-out;
@@ -337,7 +338,3 @@ a:has(.article-title) {
     box-shadow: inset 0 0 4px oklch(from var(--clr-bright-green) 0.3 0.17 h);
   }
 }
-/*.button:hover {
-  background-color: oklch(from var(--clr-bright-green) 0.65 0.17 h);
-  transform: scale(102%) translateY(-1px);
-}*/
