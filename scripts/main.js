@@ -235,7 +235,17 @@ class Footer extends HTMLElement {
 							</div>
         		</div>
 						<div class="flex">
-							<div>
+						  <div>
+								<a href="https://www.greenbiztracker.org/business/ouzel-creative-loveland" target="_blank" rel="external">
+								<img
+									src="/images/green_coverif_rgb_white_letters_200w.webp"
+									alt="Colorado Verified Green Business"
+									title="Colorado Verified Green Business"
+									loading="lazy"
+								/>
+							</a>
+          		</div>
+              <div>
             		<a href="https://www.bbb.org/us/co/loveland/profile/graphic-designer/ouzel-creative-llc-0805-46144719/#sealclick" target="_blank" rel="external">
 									<img
 										src="https://seal-wynco.bbb.org/seals/gray-seal-96-50-bbb-46144719.png"
