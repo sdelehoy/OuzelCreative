@@ -266,16 +266,6 @@ class Footer extends HTMLElement {
 									/>
             		</a>
           		</div>
-          		<div>
-            		<a href="https://www.lovelandcreates.org/listing/ouzel-creative/" target="_blank" rel="external">
-              		<img
-										src="/images/lcd-H-logo-tagline-gray.png"
-										alt="Loveland Creative District Member badge"
-										title="Loveland Creative District Member"
-										loading="lazy"
-									/>
-            		</a>
-          		</div>
 						</div>
 					</div>
         	<div class="copyright">
