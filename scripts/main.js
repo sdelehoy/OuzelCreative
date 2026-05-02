@@ -215,7 +215,7 @@ class Footer extends HTMLElement {
 								<a href="https://www.marketingmadesimple.com/Katy-Delehoy" target="_blank" rel="external">
 									<img
 										width="104px"
-										src="/images/StoryBrand_Guide_Badge_White.png"
+										src="/images/StoryBrand_Guide_Badge_White.webp"
 										alt="StoryBrand Certified Coach badge"
 										title="StoryBrand Certified Coach"
 										loading="lazy"
@@ -226,7 +226,7 @@ class Footer extends HTMLElement {
 								<a href="https://www.greenbiztracker.org/business/ouzel-creative-loveland" target="_blank" rel="external">
 									<img
 										width="104px"
-										src="/images/CGBN_Gold_Level_Stamp.png"
+										src="/images/CGBN_Gold_Level_Stamp.webp"
 										alt="Colorado Green Business Network certified silver member badge"
 										title="Colorado Green Business Network Certified Silver"
 										loading="lazy"
