@@ -1239,6 +1239,8 @@ h1:has(+ h2) {
   width: 100%;
   aspect-ratio: 3 / 2;
   margin-bottom: 32px;
+  margin-top: 32px;
+  object-fit: cover;
 }
 .post-section-heading {
   font-size: 1.7rem;
