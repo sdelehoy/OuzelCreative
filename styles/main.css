@@ -1238,9 +1238,25 @@ h1:has(+ h2) {
   box-shadow: hsl(from var(--c1) h s 4%) 0px 8px 32px -8px;
   width: 100%;
   aspect-ratio: 3 / 2;
-  margin-bottom: 32px;
-  margin-top: 32px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   object-fit: cover;
+}
+.post-figure {
+  margin: 64px 0;
+}
+.post-figure figcaption {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 8px;
+  opacity: 0.7;
+}
+.post-figure img {
+  margin: 0;
+}
+.img-contain {
+  object-fit: contain;
+  aspect-ratio: auto;
 }
 .post-section-heading {
   font-size: 1.7rem;
